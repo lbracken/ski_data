@@ -1,0 +1,285 @@
+#id,name,trails,lifts,vertical,elevation,base,area,snowfall,city,postal code,latitude,longitude,website,wiki,region,country,continent,metric
+
+# US Northeast
+1000,Mohawk Mountain,25,7,650,1600,960,107,,Cornwall,6753,41.820199,-73.290138,http://www.mohawkmtn.com,http://en.wikipedia.org/wiki/Mohawk_Mountain_Ski_Area,Connecticut,USA,North America,FALSE
+1002,Mount Southington,14,7,425,525,100,51,80,Plantsville,6479,41.58235,-72.92587,http://www.mountsouthington.com/,http://en.wikipedia.org/wiki/Mount_Southington,Connecticut,USA,North America,FALSE
+1003,Ski Sundown,15,5,625,1075,450,65,,New Hartford,6057,41.884963,-72.946815,www.skisundown.com,http://en.wikipedia.org/wiki/Ski_Sundown,Connecticut,USA,North America,FALSE
+1004,Woodbury,15,1,300,850,550,100,,Woodbury,6798,41.590604,-73.254347,http://www.woodburyskiarea.com,http://en.wikipedia.org/wiki/Woodbury_Ski_Area,Connecticut,USA,North America,FALSE
+1025,Baker Mountain,5,1,460,767,540,20,,Bingham,4920,45.084722,-69.905556,http://www.skimaine.com/ski_areas/baker-mountain/,http://en.wikipedia.org/wiki/Baker_Mountain_%28ski_area%29,Maine,USA,North America,FALSE
+1026,Big Rock,27,5,920,1590,670,60,,Mars Hill,4758,46.522222,-67.827778,http://www.bigrockmaine.com/,http://en.wikipedia.org/wiki/Big_Rock_%28ski_resort%29,Maine,USA,North America,FALSE
+1027,Black Mountain,20,4,1150,2150,1000,48,,Rumford,4276,44.58,-70.6175,http://www.skiblackmountain.org/,http://en.wikipedia.org/wiki/Black_Mountain_of_Maine,Maine,USA,North America,FALSE
+1028,Camden Snow Bowl,10,4,850,1000,150,90,70,Camden,4843,44.217216,-69.134667,http://www.camdensnowbowl.com/,http://en.wikipedia.org/wiki/Camden_Snow_Bowl,Maine,USA,North America,FALSE
+1029,Eaton Mountain,18,2,620,840,220,130,,Skowhegan,4976,44.768056,-69.619444,http://www.eatonmountain.com,http://en.wikipedia.org/wiki/Eaton_Mountain,Maine,USA,North America,FALSE
+1030,Lost Valley,15,2,240,495,255,45,99,Auburn,4210,44.136111,-70.281944,http://www.lostvalleyski.com,http://en.wikipedia.org/wiki/Lost_Valley_Ski_Area,Maine,USA,North America,FALSE
+1031,Mount Abram,44,5,1150,1990,940,250,,Greenwood,4255,44.379167,-70.706944,http://www.mtabram.com/,http://en.wikipedia.org/wiki/Mount_Abram_%28ski_resort%29,Maine,USA,North America,FALSE
+1032,Powderhouse Hill,3,1,120,240,120,5,,South Berwick,3908,43.236944,-70.802222,http://www.powderhousehill.com/,http://en.wikipedia.org/wiki/Powderhouse_Hill_%28ski_area%29,Maine,USA,North America,FALSE
+1033,Saddleback Main,66,5,2000,4120,2460,440,225,Rangeley,4970,44.936667,-70.503056,http://www.saddlebackmaine.com,http://en.wikipedia.org/wiki/Saddleback_Maine_%28ski_resort%29,Maine,USA,North America,FALSE
+1034,Shawnee Peak,44,4,1300,1900,600,249,100,Bridgton,4009,44.058333,-70.815278,http://www.shawneepeak.com/,http://en.wikipedia.org/wiki/Shawnee_Peak_Ski_Area,Maine,USA,North America,FALSE
+1035,Sugarloaf,153,14,2820,4237,1417,1056,200,Carrabassett Valley,4947,45.031389,-70.313056,http://www.sugarloaf.com,http://en.wikipedia.org/wiki/Sugarloaf_%28ski_resort%29,Maine,USA,North America,FALSE
+1036,Sunday River,132,16,2340,3140,800,743,167,Newry,4261,44.469444,-70.861111,http://www.sundayriver.com/,http://en.wikipedia.org/wiki/Sunday_River_%28Maine%29,Maine,USA,North America,FALSE
+1037,Titcomb Mountain,16,3,350,750,400,45,85,West Farmington,4992,44.65,-70.170833,http://www.titcombmountain.com/,http://en.wikipedia.org/wiki/Titcomb_Mountain,Maine,USA,North America,FALSE
+1050,Berkshire East,45,6,1180,1840,660,400,110,Charlemont,1339,42.620833,-72.876944,http://www.berkshireeast.com/,http://en.wikipedia.org/wiki/Berkshire_East_Ski_Resort,Massachusetts,USA,North America,FALSE
+1051,Blandford,22,5,465,1490,1025,158,65,Blandford,1008,42.18885,-72.900768,http://skiblandford.org/,http://en.wikipedia.org/wiki/Blandford_Ski_Area,Massachusetts,USA,North America,FALSE
+1052,Blue Hills,12,4,309,635,326,60,,Canton,2021,42.215278,-71.119167,http://www.ski-bluehills.com/,http://en.wikipedia.org/wiki/Blue_Hills_Ski_Area,Massachusetts,USA,North America,FALSE
+1053,Bousquet,23,5,750,1875,1125,200,,Pittsfield,1201,42.418071,-73.277482,http://www.bousquets.com/,http://en.wikipedia.org/wiki/Bousquet_Ski_Area,Massachusetts,USA,North America,FALSE
+1054,Butternut,22,10,1000,1800,800,110,24,Great Barrington,1230,42.183457,-73.319689,http://www.skibutternut.com/,http://en.wikipedia.org/wiki/Ski_Butternut,Massachusetts,USA,North America,FALSE
+1055,Jiminy Peak,45,9,1150,2380,1230,170,100,Hancock,1237,42.555673,-73.289981,http://jiminypeak.com,http://en.wikipedia.org/wiki/Jiminy_Peak_%28ski_area%29,Massachusetts,USA,North America,FALSE
+1056,Nashoba Valley,17,9,240,422,194,59,50,Westford,1886,42.541975,-71.444103,http://www.skinashoba.com/,http://en.wikipedia.org/wiki/Nashoba_Valley_Ski_Area,Massachusetts,USA,North America,FALSE
+1057,Ski Bradford,13,8,213,272,59,48,,Haverhill,1835,42.744365,-71.055808,skibradford.com,http://en.wikipedia.org/wiki/Ski_Bradford,Massachusetts,USA,North America,FALSE
+1058,Ski Ward,9,4,220,410,190,45,,Shrewsbury,1545,42.305556,-71.675,http://skiward.com/,http://en.wikipedia.org/wiki/Ski_Ward,Massachusetts,USA,North America,FALSE
+1059,Wachusett Mountain,22,8,1000,2006,1006,108,,Princeton,1541,42.499444,-71.886389,http://www.wachusett.com/,http://en.wikipedia.org/wiki/Wachusett_Mountain_%28ski_area%29,Massachusetts,USA,North America,FALSE
+1075,Arrowhead,9,2,430,1020,590,20,,Claremont,3743,43.362778,-72.333333,http://www.arrowheadnh.com/,http://en.wikipedia.org/wiki/Arrowhead_Recreation_Area,New Hampshire,USA,North America,FALSE
+1076,Attitash Bear Peak,73,10,1750,2350,600,307,155,Bartlett,3812,44.082222,-71.229722,http://www.attitash.com/,http://en.wikipedia.org/wiki/Attitash_Bear_Peak,New Hampshire,USA,North America,FALSE
+1077,Black Mountain,44,4,1100,2350,1250,143,,Jackson,3846,44.168333,-71.164444,http://www.blackmt.com/,http://en.wikipedia.org/wiki/Black_Mountain_Ski_Area_%28New_Hampshire%29,New Hampshire,USA,North America,FALSE
+1078,Bretton Woods,102,9,1500,3100,1600,464,200,Bretton Woods,3575,44.259722,-71.462222,http://brettonwoods.com/,http://en.wikipedia.org/wiki/Bretton_Woods_Mountain_Resort,New Hampshire,USA,North America,FALSE
+1079,Cannon Mountain,72,10,2180,4080,1900,264,160,Franconia,3580,44.157778,-71.698889,http://www.cannonmt.com/,http://en.wikipedia.org/wiki/Cannon_Mountain_Ski_Area,New Hampshire,USA,North America,FALSE
+1080,Cranmore Mountain,54,10,1200,2000,800,200,,North Conway,3860,44.05521,-71.11486,http://www.cranmore.com/,http://en.wikipedia.org/wiki/Cranmore_Mountain_Resort,New Hampshire,USA,North America,FALSE
+1081,Crotched Mountain,23,5,875,2066,1191,75,,Bennington,3442,43.012555,-71.879354,http://www.crotchedmountain.com,http://en.wikipedia.org/wiki/Crotched_Mountain,New Hampshire,USA,North America,FALSE
+1082,Dartmouth Skiway,30,3,968,1943,975,104,,Lyme Center,3769,43.787834,-72.099593,http://www.dartmouth.edu/~skiway,http://en.wikipedia.org/wiki/Dartmouth_Skiway,New Hampshire,USA,North America,FALSE
+1083,Gunstock Mountain,55,8,1400,2300,900,227,,Gilford,3249,43.551779,-71.360832,http://www.gunstock.com/,http://en.wikipedia.org/wiki/Gunstock_Mountain_Resort,New Hampshire,USA,North America,FALSE
+1084,King Pine,17,6,350,850,500,45,,East Madison,3849,43.871389,-71.089444,http://www.kingpine.com/,http://en.wikipedia.org/wiki/King_Pine,New Hampshire,USA,North America,FALSE
+1085,Loon Mountain,61,12,2100,3050,950,370,200,Lincoln,3251,44.036111,-71.621667,http://www.loonmtn.com/,http://en.wikipedia.org/wiki/Loon_Mountain,New Hampshire,USA,North America,FALSE
+1086,McIntyre,10,5,169,465,296,42,,Manchester,3104,43.007346,-71.443795,http://www.mcintyreskiarea.com/,http://en.wikipedia.org/wiki/McIntyre_Ski_Area,New Hampshire,USA,North America,FALSE
+1087,Mount Sunapee,66,11,1510,2743,1233,233,100,Newbury,3255,43.339849,-72.071013,http://www.mountsunapee.com,http://en.wikipedia.org/wiki/Mount_Sunapee_Resort,New Hampshire,USA,North America,FALSE
+1088,Pats Peak,29,10,710,1400,690,72,,Henniker,3242,43.163333,-71.795833,http://www.patspeak.com/,http://en.wikipedia.org/wiki/Pats_Peak,New Hampshire,USA,North America,FALSE
+1089,Ragged Mountain,45,5,1250,2250,1000,220,,Danbury,3230,43.484444,-71.842222,http://www.raggedmountainresort.com/,http://en.wikipedia.org/wiki/Ragged_Mountain_Resort,New Hampshire,USA,North America,FALSE
+1090,Tenney Mountain,45,5,1400,2149,749,110,140,Plymouth,3264,43.743972,-71.754287,http://www.americaskiing.com/New-Hampshire/Tenney_Mountain/Resort-Info.php,http://en.wikipedia.org/wiki/Tenney_Mountain_Ski_and_Snowboarding_Area,New Hampshire,USA,North America,FALSE
+1091,The Balsams,21,4,1000,2760,1760,87,,Dixville Notch,3576,44.860979,-71.325181,http://thebalsams.com/skiing,http://en.wikipedia.org/wiki/The_Balsams_Grand_Resort_Hotel,New Hampshire,USA,North America,FALSE
+1092,Waterville Valley,52,12,2020,4004,1984,220,,Waterville Valley,3215,43.965278,-71.527778,http://www.waterville.com/,http://en.wikipedia.org/wiki/Waterville_Valley_Resort,New Hampshire,USA,North America,FALSE
+1093,Whaleback,30,3,700,1800,1100,85,110,Enfield,3748,43.601885,-72.180651,http://www.whaleback.com/,http://en.wikipedia.org/wiki/Whaleback_%28ski_area%29,New Hampshire,USA,North America,FALSE
+1094,Wildcat Mountain,49,4,2112,4062,2000,225,200,Jackson,3846,44.263056,-71.238333,http://www.skiwildcat.com/,http://en.wikipedia.org/wiki/Wildcat_Mountain_Ski_Area,New Hampshire,USA,North America,FALSE
+1125,Yawgoo Valley,12,3,240,310,70,30,39,Exeter ,2822,41.51719,-71.530355,http://www.yawgoo.com,http://en.wikipedia.org/wiki/Yawgoo_Valley,Rhode Island,USA,North America,FALSE
+1150,Bolton Valley,71,6,1704,3150,2100,300,312,Bolton Valley,5477,44.420985,-72.849487,http://www.boltonvalley.com/,http://en.wikipedia.org/wiki/Bolton_Valley_Resort,Vermont,USA,North America,FALSE
+1151,Bromley Mountain,45,9,1334,3263,1956,178,,Peru,5152,43.213261,-72.933365,http://www.bromley.com/,http://en.wikipedia.org/wiki/Bromley_Mountain,Vermont,USA,North America,FALSE
+1152,Burke Mountain,50,6,2011,3270,1259,260,,East Burke,5832,44.570833,-71.893167,http://www.skiburke.com/,http://en.wikipedia.org/wiki/Burke_Mountain_%28Vermont%29,Vermont,USA,North America,FALSE
+1153,Cochran's Ski Area,8,3,500,1000,500,30,88,Richmond,5477,44.396382,-72.982106,http://www.cochranskiarea.com/,http://en.wikipedia.org/wiki/Skiing_Cochrans,Vermont,USA,North America,FALSE
+1154,Jay Peak,76,8,2153,3968,1815,385,,Jay,5859,44.929444,-72.532222,http://www.jaypeakresort.com/,http://en.wikipedia.org/wiki/Jay_Peak_Resort,Vermont,USA,North America,FALSE
+1155,Killington,140,22,3050,4241,1165,752,250,Killington,5751,43.625833,-72.797778,http://www.killington.com,http://en.wikipedia.org/wiki/Killington_Ski_Resort,Vermont,USA,North America,FALSE
+1156,Mad River Glen,45,4,2037,3637,1600,115,250,Waitsfield,5673,44.200833,-72.924444,http://www.madriverglen.com/,http://en.wikipedia.org/wiki/Mad_River_Glen,Vermont,USA,North America,FALSE
+1157,Magic Mountain,40,4,1700,2850,1150,195,,Londonderry,5148,43.1926,-72.759972,http://www.magicmtn.com/,"http://en.wikipedia.org/wiki/Magic_Mountain,_Vermont",Vermont,USA,North America,FALSE
+1158,Middlebury Snow Bowl,17,3,1040,2640,1600,110,250,Middlebury,5753,43.938883,-72.958074,http://www.middlebury.edu/about/facilities/snow_bowl,http://en.wikipedia.org/wiki/Middlebury_College_Snow_Bowl,Vermont,USA,North America,FALSE
+1159,Mount Snow,106,20,1700,3600,1900,467,156,West Dover,5356,42.958889,-72.923611,http://mountsnow.com/,http://en.wikipedia.org/wiki/Mount_Snow,Vermont,USA,North America,FALSE
+1160,Okemo,119,19,2200,3344,1144,632,200,Ludlow,5149,43.401389,-72.716667,http://www.okemo.com,http://en.wikipedia.org/wiki/Okemo_Mountain,Vermont,USA,North America,FALSE
+1161,Pico Mountain,52,7,1967,3967,2000,265,250,Killington,5751,43.662066,-72.842685,http://www.picomountain.com,http://en.wikipedia.org/wiki/Pico_Mountain,Vermont,USA,North America,FALSE
+1162,Smugglers' Notch,78,8,2610,3640,1030,310,322,Smugglers' Notch,5464,44.572778,-72.776111,http://www.smuggs.com/,http://en.wikipedia.org/wiki/Smugglers%27_Notch,Vermont,USA,North America,FALSE
+1163,Stowe,116,13,2160,3719,1559,485,333,Stowe,5672,44.531944,-72.7875,http://www.stowe.com/,http://en.wikipedia.org/wiki/Stowe_Mountain_Resort,Vermont,USA,North America,FALSE
+1164,Stratton,94,11,2003,3875,1872,625,,Stratton,5360,43.113672,-72.905495,http://www.stratton.com,http://en.wikipedia.org/wiki/Stratton_Mountain_Resort,Vermont,USA,North America,FALSE
+1165,Sugarbush,111,16,2600,4083,1483,578,269,Warren,5674,44.136068,-72.894548,http://www.sugarbush.com/,http://en.wikipedia.org/wiki/Sugarbush_Resort,Vermont,USA,North America,FALSE
+1166,Suicide Six,23,3,650,1200,550,100,110,Woodstock,5091,43.663889,-72.544444,http://www.woodstockinn.com/suicide-six.html,http://en.wikipedia.org/wiki/Suicide_Six,Vermont,USA,North America,FALSE
+
+# US Midatlantic
+1200,Wisp,32,12,700,3115,2415,132,100,McHenry,21541,39.558056,-79.363056,http://www.wispresort.com,http://en.wikipedia.org/wiki/Wisp_Ski_Resort,Maryland,USA,North America,FALSE
+1225,Campgaw Mountain,5,5,270,720,450,18,,Mahwah,7430,41.058668,-74.195096,http://www.skicampgaw.com/,http://en.wikipedia.org/wiki/Campgaw_Mountain,New Jersey,USA,North America,FALSE
+1226,Hidden Valley,13,4,620,1435,815,36,80,Vernon,7462,41.1856,-74.4806,http://www.hiddenvalleynj.com/,http://en.wikipedia.org/wiki/Hidden_Valley_%28New_Jersey%29,New Jersey,USA,North America,FALSE
+1227,Mountain Creek,41,8,1040,1480,440,63,65,Vernon,7462,41.181,-74.513,http://www.mountaincreek.com/,http://en.wikipedia.org/wiki/Mountain_Creek,New Jersey,USA,North America,FALSE
+1250,Belleayre Mountain,55,8,1404,3325,2541,171,141,Highmount,12441,42.142214,-74.510778,http://www.belleayre.com/,http://en.wikipedia.org/wiki/Belleayre_Mountain,New York,USA,North America,FALSE
+1251,Bristol Mountain,34,6,1200,2200,1000,138,130,Canandaigua,14424,42.745,-77.404444,http://www.bristolmt.com,http://en.wikipedia.org/wiki/Bristol_Mountain,New York,USA,North America,FALSE
+1252,Catamount,33,6,1000,2000,1000,119,75,Hillsdale ,12529,42.169471,-73.478023,http://www.catamountski.com/,http://en.wikipedia.org/wiki/Catamount_Ski_Area,New York,USA,North America,FALSE
+1253,Gore Mountain,94,14,2537,3600,1300,347,150,North Creek,12853,43.672222,-74.006944,http://www.goremountain.com/,http://en.wikipedia.org/wiki/Gore_Mountain_%28ski_resort%29,New York,USA,North America,FALSE
+1254,Greek Peak,32,6,952,2100,1148,257,122,Cortland,13045,42.508711,-76.144892,http://www.greekpeak.net/,http://en.wikipedia.org/wiki/Greek_Peak,New York,USA,North America,FALSE
+1255,Hunter Mountain,55,11,1600,3200,1600,240,85,Hunter,12442,42.200278,-74.230278,http://www.huntermtn.com,http://en.wikipedia.org/wiki/Hunter_Mountain_%28ski_area%29,New York,USA,North America,FALSE
+1256,Peek'n Peak,27,8,400,1800,1400,130,105,Clymer,14724,42.0625,-79.736667,http://www.pknpk.com/,http://en.wikipedia.org/wiki/Peek%27n_Peak,New York,USA,North America,FALSE
+1257,Thunder Ridge,30,4,600,820,220,90,,Patterson,12563,41.508007,-73.584958,http://thunderridgeski.com/,http://en.wikipedia.org/wiki/Thunder_Ridge_Ski_Area,New York,USA,North America,FALSE
+1258,Titus Mountain,26,7,570,1560,990,80,130,Malone,12953,44.763464,-74.235116,http://www.titusmountain.com/,http://en.wikipedia.org/wiki/Titus_Mountain,New York,USA,North America,FALSE
+1259,Tuxedo,7,4,450,1400,950,35,36,Tuxedo ,10987,41.24887,-74.226512,http://www.tuxedoridge.com/,http://en.wikipedia.org/wiki/Tuxedo_Ski_Center,New York,USA,North America,FALSE
+1260,West Mountain,40,4,1010,1470,460,124,,Queensbury ,12804,43.285556,-73.728333,http://www.skiwestmountain.com/,http://en.wikipedia.org/wiki/West_Mountain_%28ski_area%29,New York,USA,North America,FALSE
+1261,Whiteface Mountain,86,11,3430,4650,1220,283,230,Wilmington,12997,44.365833,-73.902778,http://www.whiteface.com/,http://en.wikipedia.org/wiki/Whiteface_Mountain,New York,USA,North America,FALSE
+1262,Windham Mountain,49,10,1600,3100,1500,269,,Windham,12496,42.298802,-74.257089,http://www.windhammountain.com/,http://en.wikipedia.org/wiki/Windham_Mountain,New York,USA,North America,FALSE
+1275,Alpine Mountain,21,3,500,1150,650,60,,North Analomink,18320,41.113423,-75.225645,http://www.alpinemountain.com/,http://en.wikipedia.org/wiki/Alpine_Mountain_Ski_%26_Ride_Center,Pennsylvania,USA,North America,FALSE
+1276,Bear Creek Mountain,21,7,510,1100,590,86,30,Macungie,18062,40.476111,-75.625833,http://www.skibearcreek.com/,http://en.wikipedia.org/wiki/Bear_Creek_Ski_and_Recreation_Area,Pennsylvania,USA,North America,FALSE
+1277,Blue Mountain,39,13,1082,1540,458,164,30,Palmerton,18071,40.822222,-75.513333,http://www.skibluemt.com,http://en.wikipedia.org/wiki/Blue_Mountain_Ski_Area,Pennsylvania,USA,North America,FALSE
+1278,Camelback,34,14,800,2133,1333,160,50,Tannersville,18372,41.05214,-75.355688,http://www.skicamelback.com/,http://en.wikipedia.org/wiki/Camelback_Ski_Area,Pennsylvania,USA,North America,FALSE
+1279,Elk Mountain,27,7,1000,2694,1694,140,,Union Dale,18470,41.723908,-75.554377,http://www.elkskier.com/,http://en.wikipedia.org/wiki/Elk_Mountain_Ski_Area,Pennsylvania,USA,North America,FALSE
+1280,Jack Frost,21,9,600,2000,1400,100,50,Blakeslee,18610,41.107085,-75.652503,http://www.jfbb.com/,http://en.wikipedia.org/wiki/Jack_Frost_Ski_Resort,Pennsylvania,USA,North America,FALSE
+1281,Big Boulder,15,8,475,2175,1700,55,65,Lake Harmony,18624,41.050424,-75.601026,http://www.jfbb.com/,http://en.wikipedia.org/wiki/Jack_Frost_Ski_Resort,Pennsylvania,USA,North America,FALSE
+1282,Liberty Mountain,16,6,620,1190,570,100,31,Carroll Valley,17320,39.7635,-77.375,http://www.libertymountainresort.com/,http://en.wikipedia.org/wiki/Liberty_Mountain_Resort,Pennsylvania,USA,North America,FALSE
+1283,Mount Pleasant,9,4,350,1551,1201,25,,Cambridge Springs,16403,41.851087,-80.070384,http://www.skimountpleasant.com/,http://en.wikipedia.org/wiki/Mountain_View_at_Edinboro,Pennsylvania,USA,North America,FALSE
+1284,Seven Springs,40,15,750,2994,2240,285,135,Seven Springs,15622,40.023056,-79.292778,http://www.7springs.com/,http://en.wikipedia.org/wiki/Seven_Springs_Mountain_Resort,Pennsylvania,USA,North America,FALSE
+1285,Shawnee Mountain,23,10,700,1351,651,125,50,Shawnee on Delaware,18356,41.040833,-75.083333,http://www.shawneemt.com/index.html,http://en.wikipedia.org/wiki/Shawnee_Mountain_Ski_Area,Pennsylvania,USA,North America,FALSE
+1286,Ski Big Bear,18,6,650,1200,1200,26,50,Lackawaxen,18435,41.522507,-75.024587,http://www.ski-bigbear.com,http://en.wikipedia.org/wiki/Ski_Big_Bear,Pennsylvania,USA,North America,FALSE
+1287,Snö Mountain,30,7,1000,2000,1000,140,160,Scranton,18507,41.348271,-75.663579,http://www.snomtn.com/,http://en.wikipedia.org/wiki/Sn%C3%B6_Mountain,Pennsylvania,USA,North America,FALSE
+1288,Tussey Mountain,7,5,500,1819,1319,38,,Boalsburg,16827,40.769216,-77.754226,http://www.tusseymountain.com/,http://en.wikipedia.org/wiki/Tussey_Mountain_Ski_Area,Pennsylvania,USA,North America,FALSE
+1289,Whitetail,23,9,935,1800,865,109,40,Mercersburg,17236,39.741667,-77.932778,http://www.skiwhitetail.com/,http://en.wikipedia.org/wiki/Whitetail_Ski_Resort,Pennsylvania,USA,North America,FALSE
+
+# US Southeast
+1300,Appalachian Ski Mountain,12,6,365,4000,3635,27,60,Blowing Rock,28605,36.174448,-81.662561,http://www.appskimtn.com/,http://en.wikipedia.org/wiki/Appalachian_Ski_Mountain,North Carolina,USA,North America,FALSE
+1301,Cataloochee,16,5,740,5400,4660,50,,Maggie Valley,28751,35.562936,-83.089839,http://cataloochee.com,http://en.wikipedia.org/wiki/Cataloochee_Ski_Area,North Carolina,USA,North America,FALSE
+1302,Ski Beech,15,7,830,5506,4675,95,,Beech Mountain,28604,36.197638,-81.878403,http://www.beechmountainresort.com,"http://en.wikipedia.org/wiki/Beech_Mountain,_North_Carolina",North Carolina,USA,North America,FALSE
+1303,Sugar Mountain,20,7,1200,5300,4100,115,,Sugar Mountain,28604,36.130223,-81.85909,http://skisugar.com/,"http://en.wikipedia.org/wiki/Sugar_Mountain,_North_Carolina",North Carolina,USA,North America,FALSE
+1304,Wolf Ridge,23,6,700,4700,4000,72,,Mars Hill,28754,35.95496,-82.50928,http://www.skiwolfridgenc.com/,http://en.wikipedia.org/wiki/Wolf_Ridge,North Carolina,USA,North America,FALSE
+1325,Ober Gatlinburg,8,3,600,3300,2700,35,30,Gatlinburg,37738,35.708608,-83.521078,http://www.obergatlinburg.com/,http://en.wikipedia.org/wiki/Ober_Gatlinburg,Tennessee,USA,North America,FALSE
+1350,Bryce Resort,8,2,500,1750,1250,25,,Basye,22810,38.817007,-78.765968,http://www.bryceresort.com/,"http://en.wikipedia.org/wiki/Basye-Bryce_Mountain,_Virginia",Virginia,USA,North America,FALSE
+1351,Massanutten ,14,,1100,2860,1750,70,,McGaheysville,22840,38.406254,-78.71654,http://massresort.com/,http://en.wikipedia.org/wiki/Massanutten_Mountain,Virginia,USA,North America,FALSE
+1352,The Homestead,10,,700,3200,2500,45,50,Hot Springs,24445,37.997583,-79.831209,http://www.thehomestead.com/,"http://en.wikipedia.org/wiki/The_Homestead_%28Hot_Springs,_Virginia%29",Virginia,USA,North America,FALSE
+1353,Wintergreen,26,7,1003,3515,3515,129,,Wintergreen,22958,37.93,-78.941667,http://www.wintergreenresort.com/,http://en.wikipedia.org/wiki/Wintergreen_Resort,Virginia,USA,North America,FALSE
+1375,Canaan Valley,39,3,850,4280,3430,91,180,Davis,26260,39.023611,-79.465833,http://canaanresort.com,http://en.wikipedia.org/wiki/Canaan_Valley_Resort_State_Park,West Virginia,USA,North America,FALSE
+1376,Snowshoe,60,15,1500,4848,4848,244,180,Snowshoe,26209,38.408889,-79.994722,http://www.snowshoemtn.com,http://en.wikipedia.org/wiki/Snowshoe_Mountain,West Virginia,USA,North America,FALSE
+1377,Timberline,37,3,1000,4268,3268,100,200,Davis,26260,39.090517,-79.42753,http://www.timberlineresort.com,http://en.wikipedia.org/w/index.php?title=Timberline_Four_Seasons_Resort&action=edit&redlink=1,West Virginia,USA,North America,FALSE
+1378,Winterplace,27,9,603,3600,2997,90,100,Ghent,25843,37.59,-81.115,http://www.winterplace.com/,http://en.wikipedia.org/wiki/Winterplace,West Virginia,USA,North America,FALSE
+
+# US Rockies
+1700,Arizona Snowbowl,32,4,2300,11500,9200,777,260,Flagstaff,86002,35.268415,-111.719052,http://www.arizonasnowbowl.com/,http://en.wikipedia.org/wiki/Arizona_Snowbowl,Arizona,USA,North America,FALSE
+1701,Elk Ridge,10,2,650,8150,7500,37,150,Williams,86046,35.210556,-112.1925,http://www.elkridgeski.com/,http://en.wikipedia.org/wiki/Elk_Ridge_Ski_Area,Arizona,USA,North America,FALSE
+1702,Mount Lemmon Ski Valley,21,3,957,9157,8200,200,180,Mt. Lemmon,85619,32.44771,-110.766835,http://www.skithelemmon.com/,http://en.wikipedia.org/wiki/Mount_Lemmon_Ski_Valley,Arizona,USA,North America,FALSE
+1703,Sunrise Park,65,10,1800,11100,9200,800,250,Greer,85927,34.912523,-110.166053,http://www.sunriseskipark.com/,http://en.wikipedia.org/wiki/Sunrise_Park_Resort,Arizona,USA,North America,FALSE
+1725,Arapahoe Basin,105,7,2270,13050,10780,900,350,Keystone,80435,39.641667,-105.871667,http://arapahoebasin.com,http://en.wikipedia.org/wiki/Arapahoe_Basin,Colorado,USA,North America,FALSE
+1726,Aspen Mountain,76,8,3267,11212,7945,675,300,Aspen,81612,39.186389,-106.818611,http://www.aspensnowmass.com/,http://en.wikipedia.org/wiki/Aspen_Mountain_%28ski_area%29,Colorado,USA,North America,FALSE
+1727,Aspen Highlands,118,5,3635,11675,8040,1028,300,Aspen,81612,39.181111,-106.856389,http://www.aspensnowmass.com/,http://en.wikipedia.org/wiki/Aspen_Highlands,Colorado,USA,North America,FALSE
+1728,Buttermilk,44,8,2030,9900,7870,470,200,Aspen,81612,39.205,-106.860556,http://www.aspensnowmass.com/,http://en.wikipedia.org/wiki/Buttermilk_%28ski_area%29,Colorado,USA,North America,FALSE
+1729,Snowmass,91,21,4406,12510,8104,3128,300,Aspen,81612,39.1956,-106.9513,http://www.aspensnowmass.com/,http://en.wikipedia.org/wiki/Snowmass_%28ski_area%29,Colorado,USA,North America,FALSE
+1730,Beaver Creek,149,25,3340,11440,8100,1815,325,Vail,81657,39.631389,-106.521667,http://www.beavercreek.com/,http://en.wikipedia.org/wiki/Beaver_Creek_Resort,Colorado,USA,North America,FALSE
+1731,Breckenridge,155,31,3398,12998,9600,2358,300,Breckenridge,80424,39.475,-106.06,http://www.breckenridge.com/,http://en.wikipedia.org/wiki/Breckenridge_Ski_Resort,Colorado,USA,North America,FALSE
+1732,Copper Mountain,126,22,2601,12313,9712,2465,282,Copper Mountain,80443,39.501667,-106.156389,http://www.coppercolorado.com,http://en.wikipedia.org/wiki/Copper_Mountain_%28Colorado%29,Colorado,USA,North America,FALSE
+1733,Crested Butte,121,16,2775,12162,9375,1167,300,Crested Butte,81224,38.899722,-106.965,http://www.skicb.com,http://en.wikipedia.org/wiki/Crested_Butte_Mountain_Resort,Colorado,USA,North America,FALSE
+1734,Durango Mountain,88,10,2029,10822,8793,1360,260,Durango,81301,37.629722,-107.814444,http://www.durangomountainresort.com/,http://en.wikipedia.org/wiki/Durango_Mountain_Resort,Colorado,USA,North America,FALSE
+1735,Echo Mountain Park,16,3,660,10500,10500,75,220,Idaho Springs,80452,39.685,-105.519444,http://www.echomt.com/,http://en.wikipedia.org/wiki/Echo_Mountain_Park,Colorado,USA,North America,FALSE
+1736,Eldora Mountain,53,8,1600,10800,9200,680,300,Nederland,80466,39.9375,-105.583611,http://www.eldora.com/,http://en.wikipedia.org/wiki/Eldora_Mountain_Resort,Colorado,USA,North America,FALSE
+1737,Hesperus,13,2,700,8880,8100,80,,Hesperus,81326,37.28778,-108.04111,http://www.ski-hesperus.com/,http://en.wikipedia.org/wiki/Hesperus_Ski_Area,Colorado,USA,North America,FALSE
+1738,Howelsen,15,4,440,7136,6696,680,,Steamboat Springs,80487,40.482928,-106.838204,http://steamboatsprings.net/departments/parks_recreation/facilities/howelsen_hill_ski_area,http://en.wikipedia.org/wiki/Howelsen_Ski_Area,Colorado,USA,North America,FALSE
+1739,Keystone,135,20,3128,12408,9280,3148,235,Keystone,80435,39.605,-105.954167,http://www.keystoneresort.com/,http://en.wikipedia.org/wiki/Keystone_Resort,Colorado,USA,North America,FALSE
+1740,Loveland,93,9,2210,13010,10800,1570,422,Georgetown,80444,39.68,-105.896944,http://www.skiloveland.com/,http://en.wikipedia.org/wiki/Loveland_Ski_Area,Colorado,USA,North America,FALSE
+1741,Monarch,63,5,1162,11952,10790,800,350,Monarch,81227,38.5125,-106.3325,http://www.skimonarch.com/,http://en.wikipedia.org/wiki/Monarch_Ski_Area,Colorado,USA,North America,FALSE
+1742,Powderhorn,37,4,1650,9850,8200,1600,250,Mesa,81643,39.063056,-108.155556,http://www.powderhorn.com/,http://en.wikipedia.org/wiki/Powderhorn_Resort,Colorado,USA,North America,FALSE
+1743,Ski Cooper,26,5,1200,11700,10500,400,250,Leadville,80461,39.360556,-106.302222,http://www.skicooper.com/,http://en.wikipedia.org/wiki/Ski_Cooper,Colorado,USA,North America,FALSE
+1744,Steamboat,165,16,3668,10568,6900,2965,349,Steamboat Springs,80487,40.452778,-106.773056,http://www.steamboat.com/,http://en.wikipedia.org/wiki/Steamboat_Ski_Resort,Colorado,USA,North America,FALSE
+1745,Sunlight Mountain,67,3,2010,9895,7885,470,250,Glenwood Springs,81601,39.399806,-107.339278,http://www.sunlightmtn.com/,http://en.wikipedia.org/wiki/Sunlight_Mountain_Resort,Colorado,USA,North America,FALSE
+1746,Telluride,125,18,4425,12570,8725,2000,309,Telluride,81435,37.936389,-107.820278,http://tellurideskiresort.com,http://en.wikipedia.org/wiki/Telluride_Ski_Resort,Colorado,USA,North America,FALSE
+1747,Vail,193,31,3450,11570,8120,5289,366,Vail,81657,39.6391,-106.3738,http://www.vail.com/,http://en.wikipedia.org/wiki/Vail_Ski_Resort,Colorado,USA,North America,FALSE
+1748,Winter Park,143,25,2610,12060,9000,3060,348,Winter Park,80482,39.886944,-105.7625,http://www.winterparkresort.com,http://en.wikipedia.org/wiki/Winter_Park_Resort,Colorado,USA,North America,FALSE
+1749,Wolf Creek,77,7,1604,11904,10300,1600,465,Pagosa Springs,81147,37.472222,-106.793333,http://www.wolfcreekski.com/,http://en.wikipedia.org/wiki/Wolf_Creek_Ski_Area,Colorado,USA,North America,FALSE
+1775,Bald Mountain,15,2,684,4800,4000,140,100,Pierce,83546,46.570611,-115.869389,http://www.skibaldmountain.com,http://en.wikipedia.org/wiki/Bald_Mountain_Ski_Area,Idaho,USA,North America,FALSE
+1776,Bogus Basin,53,7,1800,7582,5800,2600,225,Boise,83702,43.764528,-116.106722,http://www.bogusbasin.org/,http://en.wikipedia.org/wiki/Bogus_Basin,Idaho,USA,North America,FALSE
+1777,Brundage Mountain,46,5,1800,7640,5840,1500,320,McCall,83638,45.004,-116.145,http://www.brundage.com/,http://en.wikipedia.org/wiki/Brundage_Mountain,Idaho,USA,North America,FALSE
+1778,Cottonwood Butte,7,2,845,5566,4721,260,45,Cottonwood,83522,46.075611,-116.452806,http://www.cottonwoodbutte.org/,http://en.wikipedia.org/wiki/Cottonwood_Butte,Idaho,USA,North America,FALSE
+1779,Kelly Canyon,26,4,1000,6600,5600,640,200,Ririe,83443,43.645833,-111.63,http://www.skikelly.com/,http://en.wikipedia.org/wiki/Kelly_Canyon,Idaho,USA,North America,FALSE
+1780,Little Ski Hill,5,1,405,5600,5195,40,175,McCall,83638,44.93,-116.163056,http://www.littleskihill.org/,http://en.wikipedia.org/wiki/Little_Ski_Hill,Idaho,USA,North America,FALSE
+1782,Lookout Pass,34,3,1150,5650,4500,540,400,Mullan,83846,47.455,-115.708333,http://skilookout.com/,http://en.wikipedia.org/wiki/Lookout_Pass_Ski_and_Recreation_Area,Idaho,USA,North America,FALSE
+1783,Magic Mountain Resort,11,3,700,7240,6500,120,230,Twin Falls,83301,42.188306,-114.286111,http://www.magicmountainresort.com/,http://en.wikipedia.org/wiki/Magic_Mountain_Resort,Idaho,USA,North America,FALSE
+1784,Pebble Creek,54,3,2200,8560,6360,1100,250,Inkom,83245,42.778194,-112.159806,http://www.pebblecreekskiarea.com/,"http://en.wikipedia.org/wiki/Pebble_Creek,_Idaho",Idaho,USA,North America,FALSE
+1785,Pomerelle,24,2,1002,8762,7760,500,500,Albion,83311,42.318,-113.608,http://www.pomerelle.com/,http://en.wikipedia.org/wiki/Pomerelle,Idaho,USA,North America,FALSE
+1786,Rotarun,8,1,475,5895,5420,148,,Hailey,83333,43.4975,-114.366,http://rotarunski.com/,http://en.wikipedia.org/wiki/Rotarun_Ski_Area,Idaho,USA,North America,FALSE
+1787,Schweitzer Mountain,92,7,2400,6400,4000,2900,300,Sandpoint,83864,48.367,-116.623,http://www.schweitzer.com/,http://en.wikipedia.org/wiki/Schweitzer_Mountain,Idaho,USA,North America,FALSE
+1788,Silver Mountain,67,6,2197,6297,4100,1600,300,Kellogg,83837,47.495278,-116.136667,http://www.silvermt.com/,"http://en.wikipedia.org/wiki/Silver_Mountain,_Idaho",Idaho,USA,North America,FALSE
+1789,Snowhaven,9,2,400,5600,5200,40,60,Grangeville,83530,45.869,-116.09,http://www.grangeville.us/parks-and-recreation/snowhaven-ski-area.html,http://en.wikipedia.org/wiki/Snowhaven,Idaho,USA,North America,FALSE
+1790,Soldier Mountain,36,2,1425,7177,5752,1150,100,Fairfield,83327,43.483333,-114.833333,http://www.soldiermountain.com/,http://en.wikipedia.org/wiki/Soldier_Mountain,Idaho,USA,North America,FALSE
+1791,Sun Valley,80,19,3400,9150,5750,2054,,Sun Valley,83353,43.696455,-114.353775,http://www.sunvalley.com/,"http://en.wikipedia.org/wiki/Sun_Valley,_Idaho",Idaho,USA,North America,FALSE
+1800,Bear Paw,24,1,900,5280,4500,80,140,Havre,59501,48.177778,-109.634167,http://skibearpaw.com/,http://en.wikipedia.org/wiki/Bear_Paw_Ski_Bowl,Montana,USA,North America,FALSE
+1801,Big Sky,150,22,4350,11166,6800,3832,400,Big Sky,59716,45.25,-111.416667,http://www.bigskyresort.com/,http://en.wikipedia.org/wiki/Big_Sky_Ski_Resort,Montana,USA,North America,FALSE
+1802,Blacktail Mountain,24,3,1440,6780,5340,200,250,Lakeside,59922,48.019855,-114.224814,http://www.blacktailmountain.com/,http://en.wikipedia.org/wiki/Blacktail_Mountain_Ski_Area,Montana,USA,North America,FALSE
+1803,Bridger Bowl,71,8,2600,8700,6100,2000,350,Bozeman,59715,45.817222,-110.896667,http://www.bridgerbowl.com/,http://en.wikipedia.org/wiki/Bridger_Bowl_Ski_Area,Montana,USA,North America,FALSE
+1804,Discovery,67,7,2388,8158,5770,2200,215,Anaconda,59711,46.256389,-113.241944,http://www.skidiscovery.com/,http://en.wikipedia.org/wiki/Discovery_Ski_Area,Montana,USA,North America,FALSE
+1805,Great Divide,140,5,1330,7330,5900,1600,180,Marysville,59640,46.7497,-112.3043,http://www.skigd.com/,http://en.wikipedia.org/wiki/Great_Divide_Snowsports,Montana,USA,North America,FALSE
+1807,Lost Trail Powder Mountain,50,5,1800,8200,6400,900,300,Conner,59827,45.69,-113.95,http://www.losttrail.com/,http://en.wikipedia.org/wiki/Lost_Trail_Powder_Mountain,Montana,USA,North America,FALSE
+1808,Maverick Mountain,24,1,2020,8520,6500,255,250,Polaris,59746,45.435,-113.129444,http://skimaverick.com/,http://en.wikipedia.org/wiki/Maverick_Mountain_Ski_Area,Montana,USA,North America,FALSE
+1809,Montana Snowbowl,39,2,2600,7600,5000,950,300,Missoula,59807,47.023611,-113.997222,http://www.montanasnowbowl.com/,http://en.wikipedia.org/wiki/Montana_Snowbowl,Montana,USA,North America,FALSE
+1810,Moonlight Basin,101,6,2720,11166,7000,1900,400,Big Sky,59716,45.303607,-111.428855,http://www.moonlightbasin.com,http://en.wikipedia.org/wiki/Moonlight_Basin,Montana,USA,North America,FALSE
+1811,Red Lodge Mountain,65,6,2400,9416,7016,1500,250,Red Lodge,59068,45.190278,-109.350833,http://www.redlodgemountain.com/,http://en.wikipedia.org/wiki/Red_Lodge_Mountain_Resort,Montana,USA,North America,FALSE
+1812,Showdown,34,4,1400,8200,6800,640,240,Neihart,59465,46.838611,-110.708889,http://www.showdownmontana.com/,http://en.wikipedia.org/wiki/Showdown_Ski_Area,Montana,USA,North America,FALSE
+1813,Teton Pass,26,1,1010,7200,6190,114,250,Choteau,59422,47.928056,-112.815278,http://www.skitetonpass.com/,http://en.wikipedia.org/wiki/Teton_Pass_Ski_Area,Montana,USA,North America,FALSE
+1814,Turner Mountain,25,1,2110,5952,3842,1000,250,Libby,59923,48.605,-115.630556,http://www.skiturner.com/,http://en.wikipedia.org/wiki/Turner_Mountain_Ski_Resort,Montana,USA,North America,FALSE
+1815,Whitefish at Big Mountain,98,9,2353,6817,4464,3000,300,Whitefish,59937,48.502778,-114.340278,http://skiwhitefish.com/,http://en.wikipedia.org/wiki/The_Big_Mountain,Montana,USA,North America,FALSE
+1825,Angel Fire,74,5,2077,10677,8600,230,210,Angel Fire,87710,36.381389,-105.238889,http://www.angelfireresort.com/,http://en.wikipedia.org/wiki/Angel_Fire_Resort,New Mexico,USA,North America,FALSE
+1826,Pajarito Mountain ,40,5,1440,10440,9000,300,125,Los Alamos,87544,35.894167,-106.390278,http://www.skipajarito.com/,http://en.wikipedia.org/wiki/Pajarito_Mountain_Ski_Area,New Mexico,USA,North America,FALSE
+1827,Ski Apache,55,11,1900,11500,9600,750,180,Alto,88312,33.397222,-105.799167,http://www.skiapache.com/,http://en.wikipedia.org/wiki/Ski_Apache,New Mexico,USA,North America,FALSE
+1828,Sipapu,41,5,1055,9255,8200,200,190,Vadito,57579,36.154211,-105.548508,http://www.sipapunm.com/,http://en.wikipedia.org/wiki/Sipapu_%28ski_area%29,New Mexico,USA,North America,FALSE
+1829,Taos,110,13,2612,11819,9207,1294,305,Taos Ski Valley,87525,36.597778,-105.445,http://www.skitaos.org/,"http://en.wikipedia.org/wiki/Taos_Ski_Valley,_New_Mexico",New Mexico,USA,North America,FALSE
+1830,Sandia Peak,30,5,1700,10350,8678,200,125,Albuquerque,87122,35.190556,-106.479444,http://www.sandiapeak.com/,http://en.wikipedia.org/wiki/Sandia_Peak_Tramway,New Mexico,USA,North America,FALSE
+1831,Red River,57,3,1600,10350,8750,290,214,Red River,87558,36.708322,-105.410775,http://www.redriverskiarea.com/,http://en.wikipedia.org/wiki/Red_River_Ski_Area,New Mexico,USA,North America,FALSE
+1832,Ski Sante Fe,77,7,1725,12075,10350,660,225,Santa Fe,87505,35.65095,-105.952678,http://www.skisantafe.com/,http://en.wikipedia.org/wiki/Ski_Santa_Fe,New Mexico,USA,North America,FALSE
+1850,Alta,116,7,2020,10550,8530,2200,560,Alta,84092,40.580833,-111.637222,http://www.alta.com/,http://en.wikipedia.org/wiki/Alta_Ski_Area,Utah,USA,North America,FALSE
+1851,Beaver Mountain,47,4,1600,8800,7200,664,400,Logan,84321,41.968333,-111.541667,http://www.skithebeav.com/,http://en.wikipedia.org/wiki/Beaver_Mountain,Utah,USA,North America,FALSE
+1852,Brian Head,65,9,1707,10920,9600,650,400,Brian Head,84719,37.683333,-112.833333,http://www.brianhead.com,http://en.wikipedia.org/wiki/Brian_Head_Ski_Resort,Utah,USA,North America,FALSE
+1853,Brighton,66,6,1745,10500,8755,1050,500,Cottonwood,84121,40.6,-111.583333,http://www.brightonresort.com/,http://en.wikipedia.org/wiki/Brighton_Ski_Resort,Utah,USA,North America,FALSE
+1854,The Canyons,182,19,3190,9990,6800,4000,355,Park City,84098,40.68495,-111.556656,http://www.canyonsresort.com/,http://en.wikipedia.org/wiki/The_Canyons,Utah,USA,North America,FALSE
+1855,Deer Valley,113,21,3000,9570,6570,2026,300,Park City,84060,40.622778,-111.489444,http://www.deervalley.com/,http://en.wikipedia.org/wiki/Deer_Valley_Resort,Utah,USA,North America,FALSE
+1856,Park City,114,16,3100,10000,6900,3300,360,Park City,84060,40.650833,-111.5075,http://www.parkcitymountain.com,http://en.wikipedia.org/wiki/Park_City_Mountain_Resort,Utah,USA,North America,FALSE
+1857,Powder Mountain,135,7,2000,8900,6900,2800,500,Eden,84310,41.38,-111.780278,http://www.powdermountain.com/,http://en.wikipedia.org/wiki/Powder_Mountain_Ski_Resort,Utah,USA,North America,FALSE
+1858,Snowbasin,104,11,2950,9350,6391,3000,400,Huntsville,84317,41.211944,-111.851944,http://www.snowbasin.com/,http://en.wikipedia.org/wiki/Snowbasin,Utah,USA,North America,FALSE
+1859,Snowbird,85,11,3240,11000,7760,2500,500,Snowbird,84092,40.581111,-111.656389,http://www.snowbird.com,http://en.wikipedia.org/wiki/Snowbird_ski_resort,Utah,USA,North America,FALSE
+1860,Solitude,65,8,2047,10035,7988,1200,500,Solitude,84121,40.615139,-111.588917,http://skisolitude.com/,http://en.wikipedia.org/wiki/Solitude_Mountain_Resort,Utah,USA,North America,FALSE
+1861,Sundance,42,8,2150,10035,7988,450,500,Sundance,84604,40.393333,-111.588611,http://www.sundanceresort.com/,http://en.wikipedia.org/wiki/Sundance_Ski_Resort,Utah,USA,North America,FALSE
+1862,Wolf Mountain,20,4,1000,6500,5500,100,350,Eden,84310,41.309518,-111.864427,http://www.wolfcreekutah.com/,http://en.wikipedia.org/wiki/Wolf_Mountain,Utah,USA,North America,FALSE
+1876,Grand Targhee,76,5,2180,9920,7408,2500,500,Alta,83414,43.792778,-110.959167,http://www.grandtarghee.com/,http://en.wikipedia.org/wiki/Grand_Targhee_Resort,Wyoming,USA,North America,FALSE
+1877,Hogadon,24,3,630,8000,7370,60,140,Casper,82601,42.744961,-106.339428,http://www.casperwy.gov/Play/OutdoorSports/Skiing/tabid/405/Default.aspx,http://en.wikipedia.org/wiki/Hogadon_Ski_Area,Wyoming,USA,North America,FALSE
+1878,Jackson Hole,116,11,4139,10450,6311,2500,475,Teton Village,83025,43.587222,-110.825278,http://www.jacksonhole.com,http://en.wikipedia.org/wiki/Jackson_Hole_Mountain_Resort,Wyoming,USA,North America,FALSE
+1879,Pine Creek,30,1,1450,7950,6800,640,,Cokeville,83114,42.103108,-110.828789,http://www.pinecreekskiresort.com/,http://en.wikipedia.org/wiki/Pine_Creek_Ski_Area,Wyoming,USA,North America,FALSE
+1880,Snow King,22,4,1571,1808,6237,400,150,Jackson Hole,83001,43.469167,-110.750833,http://www.snowking.com,http://en.wikipedia.org/wiki/Snow_King,Wyoming,USA,North America,FALSE
+1881,Snowy Range,27,5,1000,10000,9000,250,250,Laramie,82070,41.341231,-106.183441,http://www.snowyrangeski.com/,http://en.wikipedia.org/wiki/Snowy_Range_Ski_Area,Wyoming,USA,North America,FALSE
+1882,White Pine,25,3,1050,9500,8450,370,,Pinedale,82941,42.977839,-109.758172,http://www.whitepineski.com/,http://en.wikipedia.org/wiki/White_Pine_Ski_Resort,Wyoming,USA,North America,FALSE
+
+#US West Coast
+1900,Arctic Valley,24,3,1500,4000,2500,320,,Anchorage,99520,61.246667,-149.650556,http://www.skiarctic.net/,http://en.wikipedia.org/wiki/Alpenglow_at_Arctic_Valley,Alaska,USA,North America,FALSE
+1901,Alyeska,73,9,2500,2750,250,1400,631,Girdwood,99587,60.9705,-149.0982,www.alyeskaresort.com,http://en.wikipedia.org/wiki/Alyeska_Resort,Alaska,USA,North America,FALSE
+1902,Eaglecrest,36,4,1400,2600,1200,640,350,Juneau,99801,58.276111,-134.515278,http://skijuneau.com/,http://en.wikipedia.org/wiki/Eaglecrest_Ski_Area,Alaska,USA,North America,FALSE
+1903,Hilltop,5,2,294,894,600,30,,Anchorage,99507,61.140833,-149.745,http://www.hilltopskiarea.org/,http://en.wikipedia.org/wiki/Hilltop_Ski_Area,Alaska,USA,North America,FALSE
+1904,Moose Mountain,35,14,1300,1987,680,200,70,Fairbanks,99708,64.940556,-147.990556,http://www.shredthemoose.com/,http://en.wikipedia.org/wiki/Moose_Mountain_%28Alaska%29,Alaska,USA,North America,FALSE
+1905,Mount Eyak,30,1,800,1200,400,50,350,Cordova,99574,60.55,-145.75,http://www.cordovaalaska.com/winter/mounteyak.htm,http://en.wikipedia.org/wiki/Mount_Eyak,Alaska,USA,North America,FALSE
+1906,Skiland,39,2,1057,2000,943,100,300,Fairbanks,99712,65.048889,-147.409167,http://www.skiland.org/,http://en.wikipedia.org/wiki/Skiland,Alaska,USA,North America,FALSE
+1925,Mount Shasta,32,4,1435,6866,5476,425,275,Mt. Shasta,96067,41.32,-122.2036,http://skipark.com,http://en.wikipedia.org/wiki/Mount_Shasta_Ski_Park,California,USA,North America,FALSE
+1926,Alpine Meadows,100,14,1802,8637,6835,2400,365,Tahoe City,96145,39.1786,-120.2277,http://www.skialpine.com/,http://en.wikipedia.org/wiki/Alpine_Meadows_%28ski_resort%29,California,USA,North America,FALSE
+1927,Boreal,41,6,500,7700,7200,480,400,Truckee,96160,39.3317,-120.3511,http://www.rideboreal.com,http://en.wikipedia.org/wiki/Boreal_Mountain_Resort,California,USA,North America,FALSE
+1928,Donner Ski Ranch,52,8,750,7781,7031,505,396,Norden ,95724,39.32,-120.38,http://www.donnerskiranch.com/,http://en.wikipedia.org/wiki/Donner_Ski_Ranch,California,USA,North America,FALSE
+1929,Granlibakken,1,2,300,6610,6310,10,,Tahoe City,96145,39.1556,-120.1551,http://www.granlibakken.com,http://en.wikipedia.org/wiki/Granlibakken,California,USA,North America,FALSE
+1930,Heavenly,97,30,3500,10067,6255,4800,360,South Lake Tahoe,96150,38.9353,-119.94,http://www.skiheavenly.com/,http://en.wikipedia.org/wiki/Heavenly_Ski_Resort,California,USA,North America,FALSE
+1931,Homewood,60,8,1650,7880,6230,1260,400,Homewood ,96141,39.0827,-120.1755,http://www.skihomewood.com/,http://en.wikipedia.org/wiki/Homewood_Mountain_Resort,California,USA,North America,FALSE
+1932,Kirkwood,72,14,2000,9800,7800,2300,600,Kirkwood,95646,38.684,-120.068,http://www.kirkwood.com,http://en.wikipedia.org/wiki/Kirkwood_Mountain_Resort,California,USA,North America,FALSE
+1933,Northstar,97,20,2280,6800,6330,3170,350,Truckee,96161,39.2733,-120.1025,http://www.northstarattahoe.com/,http://en.wikipedia.org/wiki/Northstar_at_Tahoe,California,USA,North America,FALSE
+1934,Sierra at Tahoe,46,14,2212,8852,6640,2000,480,Twin Bridges,95735,38.8002,-120.0806,http://www.sierraattahoe.com/,http://en.wikipedia.org/wiki/Sierra-at-Tahoe,California,USA,North America,FALSE
+1935,Squaw Valley,170,30,2850,9050,6200,3600,500,Olympic Valley,96146,39.1882,-120.2639,http://www.squaw.com/,http://en.wikipedia.org/wiki/Squaw_Valley_Ski_Resort,California,USA,North America,FALSE
+1936,Sugar Bowl,95,13,1500,8383,6883,1500,500,Norden ,95724,39.30444,-120.33583,http://www.sugarbowl.com,http://en.wikipedia.org/wiki/Sugar_Bowl_Ski_Resort,California,USA,North America,FALSE
+1937,Badger Pass,10,5,800,8000,7200,90,300,Yosemite National Park,95389,37.6475,-119.7175,http://www.yosemitepark.com/BadgerPass.aspx,http://en.wikipedia.org/wiki/Badger_Pass_Ski_Area,California,USA,North America,FALSE
+1938,Bear Valley,67,8,1900,8500,6600,1280,359,Bear Valley,95223,38.49222,-120.00667,http://www.bearvalley.com/,http://en.wikipedia.org/wiki/Bear_Valley_%28resort%29,California,USA,North America,FALSE
+1939,Dodge Ridge,67,12,1600,8200,6600,852,400,Pinecrest,95364,38.1896,-119.9564,http://www.dodgeridge.com,http://en.wikipedia.org/wiki/Dodge_Ridge_Ski_Area,California,USA,North America,FALSE
+1940,June Mountain,35,7,2590,10090,7545,500,250,June Lake,93529,37.7683,-119.0906,http://www.junemountain.com/,http://en.wikipedia.org/wiki/June_Mountain,California,USA,North America,FALSE
+1941,Mammoth,150,28,3100,11053,7953,3500,400,Mammoth Lakes,93546,37.6507,-119.0374,http://www.mammothmountain.com/,http://en.wikipedia.org/wiki/Mammoth_Mountain_Ski_Area,California,USA,North America,FALSE
+1942,China Peak / Sierra Summit,45,11,1679,8700,7030,1200,300,Lakeshore,93634,37.2297,-119.1583,http://www.skichinapeak.com/,http://en.wikipedia.org/wiki/Sierra_Summit,California,USA,North America,FALSE
+1943,Alta Sierra,8,2,600,7091,6500,80,80,Wofford Heights,93285,35.7108,-118.5622,http://www.altasierra.com/,http://en.wikipedia.org/wiki/Alta_Sierra_Ski_Resort,California,USA,North America,FALSE
+1944,Bear Mountain,24,12,1665,8805,7140,198,100,Big Bear Lake,92315,34.2267,-116.8602,http://www.bearmountain.com,http://en.wikipedia.org/wiki/Bear_Mountain_%28ski_area%29,California,USA,North America,FALSE
+1946,Mount Baldy,26,4,2100,8600,6500,800,170,Mt Baldy,91759,34.27,-117.6216,http://www.mtbaldyskilifts.com,http://en.wikipedia.org/wiki/Mount_Baldy_Ski_Lifts,California,USA,North America,FALSE
+1947,Mount Waterman,27,3,1030,8030,7000,150,180,La Cañada,91011,34.349722,-117.928611,http://mtwaterman.org/,http://en.wikipedia.org/wiki/Mount_Waterman,California,USA,North America,FALSE
+1948,Mountain High,62,14,1600,8200,6600,290,142,Wrightwood,92397,34.37472,-117.69323,http://www.mthigh.com/,http://en.wikipedia.org/wiki/Mountain_High,California,USA,North America,FALSE
+1949,Snow Summit,31,14,1209,8174,6965,240,100,Big Bear Lake,92315,34.2286,-116.8911,http://www.snowsummit.com,http://en.wikipedia.org/wiki/Snow_Summit,California,USA,North America,FALSE
+1950,Snow Valley,29,12,1041,7841,6800,240,150,Running Springs,92382,34.223375,-117.037423,http://www.snow-valley.com,http://en.wikipedia.org/wiki/Snow_Valley_Mountain_Resort,California,USA,North America,FALSE
+1975,Diamond Peak,30,6,1840,6700,4860,655,,Incline Village,89451,39.250334,-119.927645,http://www.diamondpeak.com/,http://en.wikipedia.org/wiki/Diamond_Peak_%28ski_area%29,Nevada,USA,North America,FALSE
+1976,Las Vegas Resort,11,4,860,9370,8510,40,140,Mount Charleston,89124,36.301638,-115.680759,http://www.skilasvegas.com,http://en.wikipedia.org/wiki/Las_Vegas_Ski_%26_Snowboard_Resort,Nevada,USA,North America,FALSE
+1977,Mt. Rose,60,8,1800,9700,8260,1200,350,Reno,89511,39.329167,-119.885833,http://www.mtrose.com/,http://en.wikipedia.org/wiki/Mount_Rose_Ski_Tahoe,Nevada,USA,North America,FALSE
+2000,Cooper Spur,10,2,350,4350,4000,50,100,Mt. Hood,97041,45.41228,-121.60501,http://www.cooperspur.com,http://en.wikipedia.org/wiki/Cooper_Spur_ski_area,Oregon,USA,North America,FALSE
+2001,Mount Hood Meadows ,85,11,2777,7300,5366,2150,430,Mt. Hood,97041,45.328889,-121.6625,http://www.skihood.com,http://en.wikipedia.org/wiki/Mount_Hood_Meadows,Oregon,USA,North America,FALSE
+2002,Mount Hood Ski Bowl,65,8,1500,5027,3500,960,300,Government Camp,97028,45.3018,-121.77321,http://www.skibowl.com/,http://en.wikipedia.org/wiki/Mount_Hood_Ski_Bowl,Oregon,USA,North America,FALSE
+2003,Summit,3,1,306,4306,4000,70,,Government Camp,97028,45.303,-121.7472,http://www.summitskiarea.com/,http://en.wikipedia.org/wiki/Summit_Ski_Area,Oregon,USA,North America,FALSE
+2004,Timberline,41,9,3690,8540,4850,1415,450,Timberline Lodge,97028,45.33,-121.71,http://www.timberlinelodge.com/,http://en.wikipedia.org/wiki/Timberline_Lodge_ski_area,Oregon,USA,North America,FALSE
+2005,Hoodoo,32,5,1035,5703,4668,806,360,Sisters,97759,44.409,-121.872,http://www.hoodoo.com/,http://en.wikipedia.org/wiki/Hoodoo_%28ski_area%29,Oregon,USA,North America,FALSE
+2006,Mount Bachelor,71,10,3365,9065,5700,3683,387,Bend,97702,43.979417,-121.688508,http://www.mtbachelor.com,http://en.wikipedia.org/wiki/Mt._Bachelor_ski_area,Oregon,USA,North America,FALSE
+2007,Willamette Pass,29,6,1563,6683,5120,555,430,Eugene,97405,43.601667,-122.031667,http://www.willamettepass.com/,http://en.wikipedia.org/wiki/Willamette_Pass_ski_area,Oregon,USA,North America,FALSE
+2008,Anthony Lakes,21,2,900,8000,7100,1100,300,North Powder,97867,44.9637,-118.2348,http://www.anthonylakes.com,http://en.wikipedia.org/wiki/Anthony_Lakes_%28ski_area%29,Oregon,USA,North America,FALSE
+2009,Ferguson Ridge,8,2,640,5840,5200,170,300,Joseph,97846,45.28209,-117.11285,http://www.skifergi.com/,http://en.wikipedia.org/wiki/Ferguson_Ridge,Oregon,USA,North America,FALSE
+2010,Mt. Ashland,23,4,1150,7500,6350,200,285,Ashland ,97520,42.083333,-122.716667,http://www.mtashland.com/,http://en.wikipedia.org/wiki/Mount_Ashland_Ski_Area,Oregon,USA,North America,FALSE
+2011,Spout Springs,17,2,610,5560,4950,250,300,Weston,97886,45.75503,-118.05429,http://www.spoutspringsskiresort.com,http://en.wikipedia.org/wiki/Spout_Springs,Oregon,USA,North America,FALSE
+2012,Warner Canyon,21,1,780,6480,5700,200,50,Lakeview,97630,42.23749,-120.29583,http://warnercanyon.org/,http://en.wikipedia.org/wiki/Warner_Canyon,Oregon,USA,North America,FALSE
+2025,49 Degrees North,82,6,1851,5774,3923,2325,301,Chewelah,99109,48.294167,-117.571111,http://www.ski49n.com/,http://en.wikipedia.org/wiki/49_Degrees_North_Ski_Area,Washington,USA,North America,FALSE
+2026,Badger Mountain,5,3,800,3800,3000,20,120,Waterville ,98858,47.61273,-120.12978,http://www.skibadgermt.com/,http://en.wikipedia.org/wiki/Badger_Mountain_Ski_Area,Washington,USA,North America,FALSE
+2027,Bluewood,24,3,1125,5670,4545,530,300,Dayton,99328,46.082611,-117.850861,http://www.bluewood.com,http://en.wikipedia.org/wiki/Bluewood_Ski_Area,Washington,USA,North America,FALSE
+2028,Crystal Mountain,57,11,3100,7012,4400,2300,350,Crystal Mountain,98022,46.927778,-121.482222,http://www.crystalmountainresort.com/,http://en.wikipedia.org/wiki/Crystal_Mountain_%28Washington%29,Washington,USA,North America,FALSE
+2029,Echo Valley,7,4,900,3000,2100,70,,Chelan,98816,47.935833,-120.056111,http://www.echovalley.org/,http://en.wikipedia.org/wiki/Echo_Valley_Ski_Area,Washington,USA,North America,FALSE
+2030,Hurricane Ridge,10,3,800,550,4800,200,400,Clallam,98326,47.974722,-123.518056,http://hurricaneridge.com/,http://en.wikipedia.org/wiki/Hurricane_Ridge_Ski_and_Snowboard_Area,Washington,USA,North America,FALSE
+2031,Leavenworth Ski Hill,2,2,300,1673,1373,15,,Leavenworth,98826,47.614033,-120.668476,http://www.skileavenworth.com/,http://en.wikipedia.org/wiki/Leavenworth_Ski_Hill,Washington,USA,North America,FALSE
+2033,Mission Ridge,36,6,2250,6820,4570,1000,200,Wenatchee,98807,47.291667,-120.398889,http://www.missionridge.com/,http://en.wikipedia.org/wiki/Mission_Ridge_Ski_Area,Washington,USA,North America,FALSE
+2034,Mount Baker,31,10,1500,5089,3500,1000,701,St. Bellingham,98229,48.858333,-121.677222,http://www.mtbaker.us,http://en.wikipedia.org/wiki/Mount_Baker_Ski_Area,Washington,USA,North America,FALSE
+2035,Mount Spokane,45,5,2000,5889,4200,1425,,Mead,99021,47.920833,-117.094444,http://www.mtspokane.com/,http://en.wikipedia.org/wiki/Mount_Spokane_Ski_and_Snowboard_Park,Washington,USA,North America,FALSE
+2036,Stevens Pass,37,10,1800,5845,4061,1125,450,Skykomish,98288,47.744722,-121.088889,http://www.stevenspass.com/,http://en.wikipedia.org/wiki/Stevens_Pass_Ski_Area,Washington,USA,North America,FALSE
+2037,The Summit at Snoqualmie,62,25,2280,5420,2620,1981,435,Snoqualmie Pass,98068,47.41,-121.405833,http://www.summitatsnoqualmie.com/,http://en.wikipedia.org/wiki/The_Summit_at_Snoqualmie,Washington,USA,North America,FALSE
+2038,White Pass,45,8,2050,6550,4500,1402,380,White Pass,98937,46.635278,-121.3875,http://www.skiwhitepass.com/,http://en.wikipedia.org/wiki/White_Pass_Ski_Area,Washington,USA,North America,FALSE
+
+# Mexico
+2050,Monterreal,2,2,60,2725,2665,1.1,,Saltillo ,25350,25.234261,-100.437378,http://www.monterreal.com,http://en.wikipedia.org/wiki/Monterreal,Coahuila,Mexico,North America,TRUE
+
+# Canada
+2075,Canada Olympic Park,3,2,390,4100,3710,96,45,Calgary,T3B 5R5,51.079722,-114.215833,http://www.winsportcanada.ca,http://en.wikipedia.org/wiki/Canada_Olympic_Park,Alberta,Canada,North America,FALSE
+2076,Canyon Ski Area,18,5,164,899,753,70,114,Red Deer,T4N 5E2,52.307389,-113.685472,http://www.canyonski.ca/,http://en.wikipedia.org/wiki/Canyon_Ski_Area,Alberta,Canada,North America,TRUE
+2081,Lake Louise,139,9,991,2637,1646,4200,454,Lake Louise,T0L 1E0,51.441944,-116.160556,http://www.skilouise.com/,http://en.wikipedia.org/wiki/Lake_Louise_Mountain_Resort,Alberta,Canada,North America,TRUE
+2111,Kicking Horse,120,5,1260,2450,1190,2800,700,Golden,V0A 1H0,51.289167,-117.058611,http://www.kickinghorseresort.com/,http://en.wikipedia.org/wiki/Kicking_Horse_Resort,British Columbia,Canada,North America,TRUE
+2120,Mount Washington,60,5,505,1588,1083,1600,1050,Mount Washington,V9J 1L0,49.738333,-125.298611,http://www.mountwashington.ca/,http://en.wikipedia.org/wiki/Mount_Washington_Alpine_Resort,British Columbia,Canada,North America,TRUE
+2126,Revelstoke,56,4,1713,2225,512,3121,1200,Revelstoke,V0E 2S1,50.954167,-118.154167,http://www.revelstokemountainresort.com/,http://en.wikipedia.org/wiki/Revelstoke_Mountain_Resort,British Columbia,Canada,North America,TRUE
+2135,Whistler Blackcomb,200,37,1609,2284,653,8171,1042,Whistler,V0N 1B4,50.108333,-122.9425,http://www.whistlerblackcomb.com,http://en.wikipedia.org/wiki/Whistler_Blackcomb,British Columbia,Canada,North America,TRUE
+2325,Mont Blanc,41,7,305,550,375,150,356,St Faustin Lac Carré,J0T 1J2,46.101667,-74.484167,http://www.skimontblanc.com/,"http://en.wikipedia.org/wiki/Mont_Blanc,_Quebec",Quebec,Canada,North America,TRUE
+2349,Mont Tremblant,95,10,645,875,230,654,395,Mont Tremblant,J8E 1T1,46.212222,-74.588056,http://www.tremblant.ca,http://en.wikipedia.org/wiki/Mont_Tremblant_Resort,Quebec,Canada,North America,TRUE
