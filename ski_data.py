@@ -37,12 +37,12 @@ def get_ski_areas():
 		ascending = get_ascending_from_req(request)
 
 		# TODO: Remove or only log as debug...
-		print "--------------------< Request >--"
-		print "  id         : %s" % ids
-		print "  name       : %s" % name
-		print "  format     : %s" % format
-		print "  order      : %s" % order
-		print "  acscending : %s" % ascending
+		#print "--------------------< Request >--"
+		#print "  id         : %s" % ids
+		#print "  name       : %s" % name
+		#print "  format     : %s" % format
+		#print "  order      : %s" % order
+		#print "  acscending : %s" % ascending
 
 	except:
 		# If there was a problem reading the request arguments, then request
