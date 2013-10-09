@@ -14,6 +14,7 @@ from flask import *
 from ski_area import *
 from ski_area_datasource import *
 
+
 app = Flask(__name__)
 datasource = None
 
@@ -35,14 +36,7 @@ def get_ski_areas():
 		format    = get_format_from_req(request)
 		order     = get_order_from_req(request)
 		ascending = get_ascending_from_req(request)
-
-		# TODO: Remove or only log as debug...
-		#print "--------------------< Request >--"
-		#print "  id         : %s" % ids
-		#print "  name       : %s" % name
-		#print "  format     : %s" % format
-		#print "  order      : %s" % order
-		#print "  acscending : %s" % ascending
+		usa_only  = get_usa_only_from_req(request)
 
 	except:
 		# If there was a problem reading the request arguments, then request
@@ -58,15 +52,35 @@ def get_ski_areas():
 	else:
 		ski_areas = datasource.get_all_ski_areas(order, ascending)
 
+	# Quick hack to support showing map of ski areas in the US until the 
+	# datasource can support a proper query by various facets, like country.
+	if usa_only:
+		ski_areas[:] = [ski_area for ski_area in ski_areas if not ski_area.country != "USA"]
+
 	# Create response
 	response_body = {		
 		"results" : [],
 		"results_count" : len(ski_areas),
 		"format"        : format,
 		"order"         : order,
-		"ascending"     : ascending
+		"ascending"     : ascending,
+
+		# Calculating min/max in the following way was about 20-25% slower than
+		# a number of if blocks in a single loop. But it's neater and more 
+		# pythonic...  (Based upon 10 runs with 10k and 100k loops)
+		"verticalMax"   : max(ski_area.vertical  for ski_area in ski_areas),
+		"verticalMin"   : min(ski_area.vertical  for ski_area in ski_areas),
+		"areaMax"       : max(ski_area.area      for ski_area in ski_areas),
+		"areaMin"       : min(ski_area.area      for ski_area in ski_areas),
+		"elevationMax"  : max(ski_area.elevation for ski_area in ski_areas),
+		"elevationMin"  : min(ski_area.elevation for ski_area in ski_areas),
+		"snowfallMax"   : max(ski_area.snowfall  for ski_area in ski_areas),
+		"snowfallMin"   : 0, # No all ski areas have snowfall data, so use zero as min
+		"trailsMax"     : max(ski_area.trails    for ski_area in ski_areas),
+		"trailsMin"     : min(ski_area.trails    for ski_area in ski_areas)
 	}
 
+	# Add the ski areas to the response
 	for ski_area in ski_areas:
 		response_body["results"].append(ski_area.format(format))
 
@@ -115,6 +129,14 @@ def get_ascending_from_req(request):
 	"""	
 	acs = request.args.get('ascending', "true")
 	return False if ("false" == acs.strip().lower()) else True
+
+
+def get_usa_only_from_req(request):
+	""" Returns True if only ski areas from the USA should be returned.
+	    Default false.
+	"""	
+	usa = request.args.get('usa_only', "false")
+	return True if ("true" == usa.strip().lower()) else False	
 
 
 def is_int(i):

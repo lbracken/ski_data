@@ -116,8 +116,21 @@ class SkiDataTestCase(unittest.TestCase):
 
         # Verify results
         assert 1000              == response["results"][0]["id"]
-        assert "Mohawk Mountain" == response["results"][0]["name"]     
+        assert "Mohawk Mountain" == response["results"][0]["name"]
 
+
+        # Verify that a requst for US only data, include only US ski areas
+        rv = self.app.get('/get_ski_areas?usa_only=true')
+        response = json.loads(rv.data)
+
+        assert "full" == response["format"]
+        assert "id"   == response["order"]
+        assert True   == response["ascending"]
+        assert 302    == response["results_count"]
+
+        # Verify results
+        for ski_area in response["results"]:
+            assert ski_area["country"] == "USA"
 
 
     # Test reading request parameters...
@@ -243,6 +256,33 @@ class SkiDataTestCase(unittest.TestCase):
     	# Invalid value for order
     	with ski_data.app.test_request_context('/?ascending=z'):
     		assert True == ski_data.get_ascending_from_req(ski_data.request)
+
+
+    def test_get_usa_only_from_req(self):
+
+        # No value for usa only
+        with ski_data.app.test_request_context('/'):
+            assert False == ski_data.get_usa_only_from_req(ski_data.request)
+
+        # Valid value for usa only
+        with ski_data.app.test_request_context('/?usa_only=FALSE'):
+            assert False == ski_data.get_usa_only_from_req(ski_data.request)
+
+        # Valid value for usa only
+        with ski_data.app.test_request_context('/?usa_only=false'):
+            assert False == ski_data.get_usa_only_from_req(ski_data.request)   
+
+        # Valid value for usa only
+        with ski_data.app.test_request_context('/?usa_only=tRue'):
+            assert True == ski_data.get_usa_only_from_req(ski_data.request)                
+
+        # Inalid value for usa only
+        with ski_data.app.test_request_context('/?usa_only=1'):
+            assert False == ski_data.get_usa_only_from_req(ski_data.request)
+
+        # Invalid value for usa only
+        with ski_data.app.test_request_context('/?usa_only=z'):
+            assert False == ski_data.get_usa_only_from_req(ski_data.request)
 
 
     def test_is_int(self):

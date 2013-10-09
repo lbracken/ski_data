@@ -10,6 +10,7 @@
 ski_area_formats = [
 	"full",
 	"short",
+	"location",
 	"autocomplete"]
 
 
@@ -81,10 +82,18 @@ class SkiArea(object):
 			None	# Nothing else to do
 
 		elif "autocomplete" == format:
-			formatted_result["id"] = self.id
-			formatted_result["name"] = self.name
-			formatted_result["desc"] = self.get_location_description()
+			formatted_result["id"]    = self.id
+			formatted_result["name"]  = self.name
+			formatted_result["desc"]  = self.get_location_description()
 			formatted_result["label"] = self.get_autocomplete_label()
+
+		elif "location" == format:
+			formatted_result["area"]      = self.area
+			formatted_result["vertical"]  = self.vertical
+			formatted_result["elevation"] = self.elevation
+			formatted_result["snowfall"]  = self.snowfall		
+			formatted_result["trails"]    = self.trails
+			formatted_result["coordinates"] = self.get_coordinates()
 
 		else:
 			# Default, full format.
@@ -100,3 +109,7 @@ class SkiArea(object):
 
 	def get_autocomplete_label(self):
 		return "%s, %s, %s, %s" % (self.name, self.region, self.country, self.continent)
+
+
+	def get_coordinates(self):
+		return [self.longitude, self.latitude]
