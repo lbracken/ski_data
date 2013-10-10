@@ -1,0 +1,117 @@
+{% extends "layout.html" %}
+{% block title %}Ski Area Map{% endblock %}
+{% block header %}Ski Area Map{% endblock %}
+{% block extra_style %}<link rel="stylesheet" href="static/css/ski-area-map.css">{% endblock %}
+
+{% block welcome %}
+<span class="welcomeText">The US has many alpine ski areas in a variety of sizes. The
+          interactive map below helps to visualize their location and a number of other facets. 
+          Click on any point to view detailed information about that individual ski area.</span>
+{% endblock %}
+
+{% block body %}
+      <div id="topToolbar">
+        <div id="topToolbarButtons"> 
+          Visualize by: 
+          <select id="visualizeBySelector" onchange="refresh();" disabled>
+            <option value="location">Location</option>
+            <option value="vertical">Vertical Drop</option>
+            <option value="area">Skiable Area</option>
+            <option value="elevation">Peak Elevation</option>          
+            <option value="snowfall">Annual Snowfall</option>
+            <option value="trails">Trails</option>
+          </select>
+        </div>
+        
+        <div id="topToolbarSocial">
+          <div class="g-plusone" data-size="medium"></div>
+        </div>        
+        <div class="clearPanel"></div>         
+      </div>
+ 
+      <div id='chart' style="display: none"></div>
+      <div id='contentLoading'><img id="addSkiAreaLoading" src="static/images/addSkiArea-loader.gif">&nbsp;&nbsp; Loading...</div>   
+      
+      <div id="bottomToolbar">
+        <div id="infoDockSection" style="display: none">
+          <span id="info_name"></span><hr/>
+          <span id="info_location"></span>
+          <br/>
+          <table class="tableLeft">
+            <tr>
+              <td class="colLbl">Vertical Drop:</td>
+              <td class="colValue"><div id="info_vertical"></div></td>  
+              <td class="colLbl">Peak Elevation:</td>
+              <td class="colValue"><div id="info_elevation"></div></td>
+              <td class="colLbl">Trails:</td>
+              <td class="colValue"><div id="info_trails"><div></td>
+            </tr><tr>          
+              <td class="colLbl">Skiable area:</td>
+              <td class="colValue"><div id="info_area"></div></td>
+              <td class="colLbl">Base Elevation:</td>
+              <td class="colValue"><div id="info_base"></div></td>
+              <td class="colLbl">Lifts:</td>
+              <td class="colValue"><div id="info_lifts"><div></td>                        
+            </tr><tr>
+              <td></td>
+              <td></td>            
+              <td class="colLbl">Annual Snowfall:</td>
+              <td class="colValue"><div id="info_snowfall"></div></td> 
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+           
+          <table class="tableRight">
+            <tr>
+              <td>
+                <a href="" id="info_google_maps_link" title="Google Map It" target="_blank">
+                <img src="static/images/icons/google_maps.png" class="icon"/>
+                <span id="info_map" class="info_link">Map It</span></a>
+              </td>
+            </tr><tr>
+              <td>
+                <a href="" id="info_website_link" title="View Website" target="_blank">
+                <img src="static/images/icons/external.png" class="icon"/>
+                <span id="info_website" class="info_link">Website</span></a>
+              </td>
+            </tr><tr>  
+              <td>
+                <a href="" id="info_wikipedia_link" title="View Wikipedia Entry" target="_blank">
+                <img src="static/images/icons/wikipedia.png" class="icon"/>
+                <span id="info_wiki" class="info_link">Wikipedia</span></a>
+              </td>
+            </tr>
+          </table>
+          
+          <div class="clearPanel"></div>        
+        </div>
+      </div>
+      <div class="push"></div>               
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+    <script src="static/js/d3.js" type="text/javascript"></script>
+    <script src="static/js/d3.geo.js"></script>
+    <script src="static/js/ski-area-common.js" type="text/javascript"></script>
+    <script src="static/js/ski-area-map.js" type="text/javascript"></script>
+
+	<!-- If the user agent is IE less than 9, then show error message.  Otherwise, render the map -->
+	<script type="text/javascript">
+		if($.browser.msie && $.browser.version < 9) {
+			$("#chart").html("<br/></br/><b>Sorry, your browser won't support this " +
+					"visualization. Please try again using a modern browser.</b>");			
+		}
+	</script>
+
+    <!-- Render Google+1 button -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+       })();
+    </script> 	
+{% endblock %}

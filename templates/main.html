@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block title %}Ski Area Data & Visualizations{% endblock %}
+{% block header %}Ski Area Data & Visualizations{% endblock %}
+
+{% block body %}
+      <div>
+        <br/>
+        <h3>I like data. I like to ski.</h3>
+        <br/>
+        
+        <table class="navTable">
+          <tr>
+            <td><a href="ski-area-size-visualization"><img src="static/images/size_viz_preview.jpg" width="200px" height="140px" class="previewImg" title="Ski Area Size Visualization"/></a></td>
+            <td>
+              <h2><a href="ski-area-size-visualization">Ski Area Size Visualization</a></h2>
+              <p>Compare the size of Ski Areas with each other.</p>
+              <br/>
+            </td>
+          </tr><tr>
+            <td><a href="ski-area-map"><img src="static/images/map_preview.jpg" width="200px" height="140px" class="previewImg" title="Ski Area Map"/></a></td>
+            <td>
+              <h2><a href="ski-area-map">Ski Area Map</a></h2>
+              <p>View a map of US Ski Areas and visualize by different facets.</p>
+            </td>
+          </tr>
+        
+        </table>      
+      </div>   
+{% endblock %}

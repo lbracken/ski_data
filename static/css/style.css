@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: #f5f5fb;
+}
+
+html {
+  font-family: Tahoma, Trebuchet MS, Helvetica, Arial;
+  font-size: .8em;
+}
+
+body {}
+
+h1 {
+  font-size: 2.2em;
+  padding-bottom: .25em;
+}
+
+A:link    {color: #76A0C9; text-decoration: none;}
+A:visited {color: #76A0C9; text-decoration: none;}
+A:hover   {color: #76A0C9; text-decoration: underline;}
+A:active  {color: #76A0C9; outline: none;}
+A:focus   {-moz-outline-style: none;}
+
+img {border: none;}
+.clearPanel {clear: both;}
+
+#bodyWrapper {
+  width: 900px;
+  
+  /* For sticky footer -- http://ryanfait.com/sticky-footer/ */
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -41px auto; /* the bottom margin is the negative value of the footer's height + border */
+}
+
+#header{
+  padding-top: 1em;
+}
+
+.welcomeText {
+  font-size: 1.25em;
+}
+
+.welcomeText p {
+  margin-top: 1em;	
+}
+
+#welcomeText-showMoreDetails {
+  font-size: 1.05em;
+  margin-left: 10px;
+  color: #666;
+  cursor: pointer;
+}
+
+#topToolbar {  
+  padding: 5px;
+  margin: 20px 0px 20px 10px;
+  border: 2px solid #D1D1C8;
+  background-color: #EBEBD7;
+  border-radius: 3px;
+  box-shadow: 4px 4px 4px #EBEBD7;
+}
+
+#topToolbarButtons {
+  float: left;
+  margin-left: 5px;
+}
+
+#topToolbarSocial {
+  float: right;
+}
+
+#contentLoading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.3em;
+  color: #555;
+}
+
+#bottomToolbar {
+  margin-bottom: 50px;
+}
+
+#infoDockSection {  
+  color: #333;
+  font-size: 1.2em;
+}
+
+#infoDockSection hr {
+  color: #333;
+  background-color: #333;
+}
+
+#infoDockSection td {
+  padding-top: 5px;	
+}
+
+#infoDockSection .tableLeft { 
+  float: left;
+  border-collapse:collapse;
+  margin-top: 10px; 
+}
+#infoDockSection .tableRight {
+  float: right;
+  border-collapse:collapse;
+}
+
+#infoDockSection .tableLeft .colLbl {
+  color: #666;	
+  text-align: right; 
+  font-style: italic;  
+}
+
+#infoDockSection .tableLeft .colValue {
+  text-align: left; 
+  padding: 0px 40px 0px 7px;
+  font-weight: bold;
+}
+
+#info_name {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+#infoDockSection A:hover   {text-decoration: none;}
+#infoDockSection A:hover .info_link {text-decoration: underline;}
+#infoDockSection .info_link {
+  font-weight: bold;	
+}
+
+.icon { 
+  width: 16px;
+  height: 16px;
+  padding-right: 4px;
+}
+
+#footer, .push {
+  height: 40px;
+}
+
+#footer {
+  border-top: 1px dotted #666;
+  width: 100%;
+  color: #666;
+}
+
+#footer-inner {
+  width: 900px;
+  margin: auto;
+  padding-top: .5em;
+}
+
+#footer A:link    {color: #666; text-decoration: none;}
+#footer A:visited {color: #666; text-decoration: none;}
+#footer A:hover   {color: #666; text-decoration: underline;}
+#footer A:active  {color: #666; outline: none;}
+#footer A:focus   {-moz-outline-style: none;}
+
+.previewImg {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.80);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.80);
+  margin: 0px 20px 25px 0px;
+}
+
+.navTable {
+  margin-top: 20px;
+}
+
+.navTable td {
+  vertical-align: top;
+}

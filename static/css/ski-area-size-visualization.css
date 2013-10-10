@@ -1,0 +1,100 @@
+#addSkiAreaMsg {
+  font-weight: bold;
+  padding: 0.5em;	
+}
+
+#addSkiAreaSection {
+  float: left;
+  font-size: 1.4em;
+}
+
+#addSkiAreaText {
+  margin-left: 5px;
+  width: 450px;
+  font-size: 1.4em;
+}
+
+.addSkiAreaText-label {
+  font-size: 1.25em;
+}
+
+.addSkiAreaText-desc {
+  padding-left: 10px;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+/* Make autocomplete suggestions scrollable by setting a fixed height */
+.ui-autocomplete {
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 20px;
+}
+	
+* html .ui-autocomplete {
+  height: 300px;  /* For IE6 -- since it doesn't support max-height */
+}
+
+
+#addSkiAreaLoading {}
+
+#addSkiAreaHelpText {
+  margin-left: 0.5em; 
+  color: #666;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+
+#addSkiAreaButton {
+  margin-right: 20px;	
+}
+ 
+#skiAreaContent {
+  width: 900px;
+  margin: 0px 0px 30px 10px;
+  padding: 10px 0px 0px 0px;
+}
+
+#skiAreaGraphSection {
+  float: left;
+  width: 675px;
+  height: 275px;	
+}
+
+#skiAreaListSection {
+  float: right;
+  width: 215px;
+
+  height: 275px;
+  overflow-y: auto;
+  overflow-x: hidden;  
+}
+
+#skiAreaList {
+}
+
+.skiAreaListItem {
+  position: relative;
+  padding: 0.25em 0em 0.25em 0.5em;	
+  margin: 0em 0em .5em 1em;	
+  /* Now set in JS -- background-color: #76A0C9;*/
+  color: #FFF;
+  font-size: 1.3em;
+  overflow: hidden;
+  white-space: nowrap;  
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #CCC, 0 0 40px rgba(0, 0, 0, 0.4) inset;
+  cursor: pointer;
+}
+
+.skiAreaListItem-hover {
+  margin-left: 0em;
+}
+
+.skiAreaListItem-Close {
+  position: absolute;
+  top: 0;
+  right: 2px;	
+}

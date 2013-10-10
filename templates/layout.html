@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <!-- TODO: Insert BMX -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{% block title %}{% endblock %}</title>    
+    <link rel="stylesheet" href="static/css/style.css">
+    {% block extra_style %}{% endblock %}
+  </head>
+
+  <body>  
+    <div id="bodyWrapper">    
+      <header>
+        <div id="header">
+          <h1>{% block header %}{% endblock %}</h1> 
+          {% block welcome %}{% endblock %}              
+        </div>
+      </header>
+
+      {% block body %}{% endblock %}
+    
+    </div>
+    
+    <footer>
+      <div id="footer">
+        <div id="footer-inner">
+        	© 2013 Levi Bracken &nbsp;&nbsp;|&nbsp;&nbsp; 
+          <a href="mailto:levi.bracken@gmail.com?subject=SkiData">Report missing or inaccurate data.</a>
+        </div>
+      </div>
+    </footer>
+
+    {% block scripts %}{% endblock %}
+    <!-- TODO: Insert GAE -->   
+
+  </body>
+</html>

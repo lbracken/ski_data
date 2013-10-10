@@ -88,6 +88,8 @@ class SkiArea(object):
 			formatted_result["label"] = self.get_autocomplete_label()
 
 		elif "location" == format:
+			formatted_result["id"]   = self.id
+			formatted_result["name"] = self.name
 			formatted_result["area"]      = self.area
 			formatted_result["vertical"]  = self.vertical
 			formatted_result["elevation"] = self.elevation

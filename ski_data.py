@@ -24,7 +24,22 @@ def init_db():
 	datasource = SkiAreaDataSource()
 
 
-@app.route('/get_ski_areas', methods=['GET'])
+@app.route('/', methods=['GET'])
+def main_page():
+	return render_template('main.html')
+
+
+@app.route('/ski-area-size-visualization', methods=['GET'])
+def size_page():
+	return render_template('ski-area-size-visualization.html')
+
+
+@app.route('/ski-area-map', methods=['GET'])
+def map_page():
+	return render_template('ski-area-map.html')		
+
+
+@app.route('/get_ski_areas', methods=['GET', 'POST'])
 def get_ski_areas():
 	""" Returns a set of ski areas in JSON format based upon various request
 		arguments.
@@ -64,21 +79,22 @@ def get_ski_areas():
 		"format"        : format,
 		"order"         : order,
 		"ascending"     : ascending,
-
-		# Calculating min/max in the following way was about 20-25% slower than
-		# a number of if blocks in a single loop. But it's neater and more 
-		# pythonic...  (Based upon 10 runs with 10k and 100k loops)
-		"verticalMax"   : max(ski_area.vertical  for ski_area in ski_areas),
-		"verticalMin"   : min(ski_area.vertical  for ski_area in ski_areas),
-		"areaMax"       : max(ski_area.area      for ski_area in ski_areas),
-		"areaMin"       : min(ski_area.area      for ski_area in ski_areas),
-		"elevationMax"  : max(ski_area.elevation for ski_area in ski_areas),
-		"elevationMin"  : min(ski_area.elevation for ski_area in ski_areas),
-		"snowfallMax"   : max(ski_area.snowfall  for ski_area in ski_areas),
-		"snowfallMin"   : 0, # No all ski areas have snowfall data, so use zero as min
-		"trailsMax"     : max(ski_area.trails    for ski_area in ski_areas),
-		"trailsMin"     : min(ski_area.trails    for ski_area in ski_areas)
 	}
+
+	# Calculating min/max in the following way was about 20-25% slower than
+	# a number of if blocks in a single loop. But it's neater and more 
+	# pythonic...  (Based upon 10 runs with 10k and 100k loops)
+	if ski_areas:
+		response_body["vertical_max"]  = max(ski_area.vertical  for ski_area in ski_areas)
+		response_body["vertical_min"]  = min(ski_area.vertical  for ski_area in ski_areas)
+		response_body["area_max"]      = max(ski_area.area      for ski_area in ski_areas)
+		response_body["area_min"]      = min(ski_area.area      for ski_area in ski_areas)
+		response_body["elevation_max"] = max(ski_area.elevation for ski_area in ski_areas)
+		response_body["elevation_min"] = min(ski_area.elevation for ski_area in ski_areas)
+		response_body["snowfall_max"]  = max(ski_area.snowfall  for ski_area in ski_areas)
+		response_body["snowfall_min"]  = 0, # No all ski areas have snowfall data, so use zero as min
+		response_body["trails_max"]    = max(ski_area.trails    for ski_area in ski_areas)
+		response_body["trails_min"]    = min(ski_area.trails    for ski_area in ski_areas)
 
 	# Add the ski areas to the response
 	for ski_area in ski_areas:
@@ -93,7 +109,7 @@ def get_ids_from_req(request):
 	""" Returns the sanitized list of ids provided in the request.
 	"""
 	ids = [] 
-	for id in request.args.get('id', '').split(','):
+	for id in request.args.get('id', '').strip("[]").split(','):
 		id = id.strip()
 		if is_int(id):
 			ids.append(int(id))

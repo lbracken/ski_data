@@ -1,0 +1,28 @@
+svg {
+ /* "#76A0C9", "#DBE7F0", "#A0BDD6", "#A5A4A6",  "#C7D2D9" //   ["#7595BF", "#7A9FBF", "#A3BFD9"];*/
+  
+}
+
+#states path {
+  /* Fill as background color, if fill is 'none' then tooltip won't be shown */
+  fill: #f5f5fb;
+  stroke: #A5A4A6;
+  stroke-width: 1.5px;
+}
+
+circle {
+  cursor: pointer;
+  fill: #76A0C9;
+  opacity: .6;
+  stroke-width: 0px;
+}
+
+circle:hover {
+  opacity: 1;
+  stroke: #A5A4A6;
+  stroke-width: 6px;
+}
+
+#chart {
+  margin-top: -30px;	
+}

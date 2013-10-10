@@ -1,0 +1,125 @@
+{% extends "layout.html" %}
+{% block title %}Ski Area Size Visualization -- Compare the size of Ski Areas / Resorts{% endblock %}
+{% block header %}Ski Area Size Visualization{% endblock %}
+
+{% block extra_style %}
+    <link rel="stylesheet" href="static/css/ski-area-size-visualization.css">
+    <link rel="stylesheet" href="static/css/jquery-ui-1.8.16.custom.css">
+{% endblock %}
+
+{% block welcome %}
+		  <span class="welcomeText">Alpine ski areas come in all sizes.  And while you can't quantify the 
+          character of a mountain, the tool below helps to visualize a ski area's size. Check out how
+          your home mountain compares, or how the big mountains stack up to each other.</span>      
+          
+          <span id="welcomeText-moreDetails" class="welcomeText" style="display: none">
+            <p>The graph is a representation of a ski area's vertical drop and skiable area.
+            It does not model the actual shape of any particular mountain.  I've collected this
+            data from each ski area's website and wikipedia; please let me know if you find
+            any missing or inaccurate data.</p>          
+          </span>
+          
+          <br/><span id="welcomeText-showMoreDetails">More Details >></span>
+{% endblock %}
+
+{% block body %}
+      <div id="topToolbar">
+        <div id="addSkiAreaMsg"  style="display: none"></div>
+        <div id="addSkiAreaSection">
+          <input id="addSkiAreaText" type="search"/>
+          <input type="hidden" id="addSkiAreaText-id"/>
+          <img id="addSkiAreaLoading" src="static/images/addSkiArea-loader.gif" style="display: none"><br/>
+          <span id="addSkiAreaHelpText">Search for Ski Areas by name, state, country...</span>
+        </div>        
+        <div id="topToolbarButtons">          
+          <button id="addSkiAreaButton">Search</button>
+        </div>
+        <div id="topToolbarSocial">
+          <div class="g-plusone" data-size="medium"></div>
+        </div>        
+        <div class="clearPanel"></div>        
+      </div>
+ 
+      <div id="skiAreaContent" style="display: none">
+        <div id="skiAreaGraphSection"></div>           
+        <div id="skiAreaListSection">
+          <div id="skiAreaList"></div>
+        </div>      
+        <div class="clearPanel"></div>      
+      </div>      
+      <div id='contentLoading'><img id="addSkiAreaLoading" src="static/images/addSkiArea-loader.gif">&nbsp;&nbsp; Loading...</div>
+      
+      <div id="bottomToolbar">
+        <div id="infoDockSection" style="display: none">
+          <span id="info_name"></span><hr/>
+          <span id="info_location"></span>
+          <br/>
+          <table class="tableLeft">
+            <tr>
+              <td class="colLbl">Vertical Drop:</td>
+              <td class="colValue"><div id="info_vertical"></div></td>  
+              <td class="colLbl">Peak Elevation:</td>
+              <td class="colValue"><div id="info_elevation"></div></td>
+              <td class="colLbl">Trails:</td>
+              <td class="colValue"><div id="info_trails"><div></td>
+            </tr><tr>          
+              <td class="colLbl">Skiable area:</td>
+              <td class="colValue"><div id="info_area"></div></td>
+              <td class="colLbl">Base Elevation:</td>
+              <td class="colValue"><div id="info_base"></div></td>
+              <td class="colLbl">Lifts:</td>
+              <td class="colValue"><div id="info_lifts"><div></td>                        
+            </tr><tr>
+              <td></td>
+              <td></td>            
+              <td class="colLbl">Annual Snowfall:</td>
+              <td class="colValue"><div id="info_snowfall"></div></td> 
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+           
+          <table class="tableRight">
+            <tr>
+              <td>
+                <a href="" id="info_google_maps_link" title="Google Map It" target="_blank">
+                <img src="static/images/icons/google_maps.png" class="icon"/>
+                <span id="info_map" class="info_link">Map It</span></a>
+              </td>
+            </tr><tr>
+              <td>
+                <a href="" id="info_website_link" title="View Website" target="_blank">
+                <img src="static/images/icons/external.png" class="icon"/>
+                <span id="info_website" class="info_link">Website</span></a>
+              </td>
+            </tr><tr>  
+              <td>
+                <a href="" id="info_wikipedia_link" title="View Wikipedia Entry" target="_blank">
+                <img src="static/images/icons/wikipedia.png" class="icon"/>
+                <span id="info_wiki" class="info_link">Wikipedia</span></a>
+              </td>
+            </tr>
+          </table>
+          
+          <div class="clearPanel"></div>        
+        </div>
+      </div>
+      <div class="push"></div>     
+{% endblock %}
+
+{% block scripts %}
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+    <script src="static/js/jquery-ui-1.8.16.custom.min.js"></script>
+    <script src="static/js/raphael-min.js"></script>
+    <script src="static/js/ski-area-common.js"></script>
+    <script src="static/js/ski-area-size-visualization.js"></script>
+    
+    <!-- Render Google+1 button -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+       })();
+    </script> 
+{% endblock %}
