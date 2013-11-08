@@ -164,7 +164,8 @@ def is_int(i):
 	except ValueError:
 		return False
 
+# Initialize the data source...
+init_db()
 
 if __name__ == '__main__':
-	init_db()
 	app.run(debug=True)
