@@ -6,7 +6,7 @@ ski_data
   A running instance is hosted at http://levibracken.com/ski.
   
   
-####Running the application
+##Running the application
 
 ski_data is built as a Flask application. To run:
 
