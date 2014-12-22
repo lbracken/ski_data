@@ -21,10 +21,10 @@ h1 {
   padding-bottom: .25em;
 }
 
-A:link    {color: #76A0C9; text-decoration: none;}
-A:visited {color: #76A0C9; text-decoration: none;}
-A:hover   {color: #76A0C9; text-decoration: underline;}
-A:active  {color: #76A0C9; outline: none;}
+A:link    {color: #000; text-decoration: none;}
+A:visited {color: #000; text-decoration: none;}
+A:hover   {color: #000; text-decoration: underline;}
+A:active  {color: #000; outline: none;}
 A:focus   {-moz-outline-style: none;}
 
 img {border: none;}
