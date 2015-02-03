@@ -1,15 +1,25 @@
-ski_data
-========
+# ski_data
 
-  ski_data provides a web service and various visualizations for data on alpine ski areas.
-  
-  A running instance is hosted at http://levibracken.com/ski.
-  
+ski_data is a project that provides interactive visualizations on ski area data.
+
+A running instance is hosted at http://levibracken.com/ski.
   
 ##Running the application
 
-ski_data is built as a Flask application. To run:
+To run locally...
 
-    $ python -m ski_data
+    $ python ski_data.py
 
-The WebUI (and web service) is then available at http://localhost:5000.
+You can then access the WebUI at http://localhost:5000.
+
+## Docker
+
+This project can be deployed as a Docker container.
+
+To build a ski_data image...
+
+	$ docker build -t="ski_data" .
+
+To start a ski_data container...
+
+	$ docker run -d -P --name ski_data ski_data
