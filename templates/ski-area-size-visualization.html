@@ -8,28 +8,17 @@
 {% endblock %}
 
 {% block welcome %}
-		  <span class="welcomeText">Alpine ski areas come in all sizes.  And while you can't quantify the 
-          character of a mountain, the tool below helps to visualize a ski area's size. Check out how
-          your home mountain compares, or how the big mountains stack up to each other.</span>      
-          
-          <span id="welcomeText-moreDetails" class="welcomeText" style="display: none">
-            <p>The graph is a representation of a ski area's vertical drop and skiable area.
-            It does not model the actual shape of any particular mountain.  I've collected this
-            data from each ski area's website and wikipedia; please let me know if you find
-            any missing or inaccurate data.</p>          
-          </span>
-          
-          <br/><span id="welcomeText-showMoreDetails">More Details >></span>
+<span class="welcomeText">Use the tool below to visualize and compare a ski area's relative size by
+plotting the vertical drop and skiable area.</span>
 {% endblock %}
 
 {% block body %}
       <div id="topToolbar">
         <div id="addSkiAreaMsg"  style="display: none"></div>
         <div id="addSkiAreaSection">
-          <input id="addSkiAreaText" type="search"/>
+          <input id="addSkiAreaText" placeholder="Search by name, state or country..." />
           <input type="hidden" id="addSkiAreaText-id"/>
           <img id="addSkiAreaLoading" src="static/images/addSkiArea-loader.gif" style="display: none"><br/>
-          <span id="addSkiAreaHelpText">Search for Ski Areas by name, state, country...</span>
         </div>        
         <div id="topToolbarButtons">          
           <button id="addSkiAreaButton">Search</button>

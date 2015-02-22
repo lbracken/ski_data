@@ -5,13 +5,13 @@
 
 #addSkiAreaSection {
   float: left;
-  font-size: 1.4em;
 }
 
 #addSkiAreaText {
+  padding: 5px;
   margin-left: 5px;
-  width: 450px;
-  font-size: 1.4em;
+  width: 600px;
+  font-size: 20px;
 }
 
 .addSkiAreaText-label {
@@ -36,16 +36,7 @@
   height: 300px;  /* For IE6 -- since it doesn't support max-height */
 }
 
-
 #addSkiAreaLoading {}
-
-#addSkiAreaHelpText {
-  margin-left: 0.5em; 
-  color: #666;
-  font-size: 0.8em;
-  font-style: italic;
-}
-
 
 #addSkiAreaButton {
   margin-right: 20px;	
@@ -78,14 +69,13 @@
 .skiAreaListItem {
   position: relative;
   padding: 0.25em 0em 0.25em 0.5em;	
-  margin: 0em 0em .5em 1em;	
-  /* Now set in JS -- background-color: #76A0C9;*/
-  color: #FFF;
-  font-size: 1.3em;
+  margin: 0em 0em .5em 1em;
+  color: #000;
+  font-size: 1.2em;
   overflow: hidden;
   white-space: nowrap;  
   border-radius: 2px;
-  box-shadow: 2px 2px 2px #CCC, 0 0 40px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   cursor: pointer;
 }
 
